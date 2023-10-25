@@ -19,10 +19,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mis <strong className="purple">Proyectos</strong>
+          MIS <strong className="purple">PROYECTOS</strong>
         </h1>
         <p style={{ color: "white" }}>
-          A continuación te enseño algunos proyectos en los que he estado trabajando.
+          A continuación te enseño algunos <strong className="purple">proyectos</strong> en los que he estado trabajando.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={isDesktop ? 6 : 4} className="project-card">

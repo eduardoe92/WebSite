@@ -10,17 +10,17 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             <br /> He participado en varios programas de formación que han enriquecido mi conjunto de habilidades como programador.
-            Estos programas incluyen: Programador <span className="purple">Full Stack </span> en 'Egg Cooperation y Argentina Programa'.
-            Desarrollador <span className="purple">Front-End </span> en 'Eidos Global y Accenture' y actualmente en el programa:
-            <span className="purple"> Full Stack Developer Core </span>en 'Digital Nao x Tecmilenio'.
+            Estos programas incluyen: Programador <strong className="purple">Full Stack </strong> en 'Egg Cooperation y Argentina Programa'.
+            Desarrollador <strong className="purple">Front-End </strong> en 'Eidos Global y Accenture' y actualmente en el programa:
+            <strong className="purple"> Full Stack Developer Core </strong>en 'Digital Nao x Tecmilenio'.
             <br />
             <br />
-            Además de mi formación formal, he buscado de manera autodidacta expandir mis conocimientos a través de plataformas educativas como <span className="purple">Udemy, FundAula y Educacion IT. </span>
-            Además, he trabajado en <span className="purple"> Proyectos Personales.</span> que me han permitido aplicar y fortalecer mis habilidades de programación.
+            Además de mi formación formal, he buscado de manera autodidacta expandir mis conocimientos a través de plataformas educativas como <strong className="purple">Udemy, FundAula y Educacion IT. </strong>
+            Adicionalmente, he trabajado en <strong className="purple"> Proyectos Personales,</strong> que me han permitido aplicar y fortalecer mis habilidades en programación web.
             <br />
           </p>
           <p className="about-activity">
-            <ImPointRight /><span className="purple"> Hobbies!</span>
+            <ImPointRight /> Entre mis <strong className="purple"> Hobbies</strong> te podría comentar que:
             </p>
           <ul>
             
