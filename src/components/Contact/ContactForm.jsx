@@ -3,11 +3,13 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { BsSend } from "react-icons/bs";
+import { Row } from "react-bootstrap";
 
 function ContactForm(props) {
     return (
-        <Card className="project-card-view mx-auto">
+        <Card className="project-card-view w-50 mx-auto">
             <br />
+            <Row>
             <Card.Body>
                 <Form>
                     <Form.Group className="d-flex align-items-center justify-content-between flex-column flex-md-row">
@@ -46,7 +48,9 @@ function ContactForm(props) {
                     Enviar
                 </Button>
             </Card.Body>
+            </Row>
             <br />
+
         </Card>
     );
 }

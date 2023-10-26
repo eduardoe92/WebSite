@@ -29,10 +29,10 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "120px", paddingBottom: "30px"}}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={laptopImg} alt="about" className="img-fluid" style={{paddingBottom: "25px" }}/>
             <Hobbies/>
           </Col>
         </Row>

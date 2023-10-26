@@ -6,7 +6,7 @@ function ContactText() {
         <Card className="quote-card-view">
             <Card.Body>
                 <blockquote className="blockquote mb-0">
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ textAlign: "left" }}>
                         <br /> Estoy a tu disposición para abordar cualquier <strong className="purple">pregunta o inquietud</strong> que puedas tener.
                         Si deseas ponerte en contacto conmigo, puedes completar el <strong className="purple">formulario</strong> a continuación o conectarte
                         a través de mis <strong className="purple">redes sociales. </strong>
