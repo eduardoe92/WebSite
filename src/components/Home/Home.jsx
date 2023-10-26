@@ -27,11 +27,11 @@ function Home() {
                 <Type />
               </div>
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 50, paddingTop: 50 }}>
               <img src={laptopImg}
                 alt="about"
                 className="img-fluid"
-                style={{ paddingBottom: "25px" }}
+                style={{ maxHeight: "500px" }}
               />
             </Col>
           </Row>

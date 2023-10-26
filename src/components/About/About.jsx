@@ -33,12 +33,11 @@ function About() {
             className="about-img"
           >
             <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "380px" }}
-              />
-            
+              src={homeLogo}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: "380px" }}
+            />
             <Hobbies />
           </Col>
         </Row>
