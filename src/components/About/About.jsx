@@ -4,17 +4,17 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import homeLogo from "../../Assets/user.svg";
 import Toolstack from "./Toolstack";
 import Hobbies from "./Hobbies";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle/>
+      <Particle />
       <Container >
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col 
+          <Col
             md={7}
             style={{
               justifyContent: "center",
@@ -29,11 +29,17 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "30px"}}
+            style={{ paddingTop: "120px", paddingBottom: "30px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" style={{paddingBottom: "25px" }}/>
-            <Hobbies/>
+            <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "380px" }}
+              />
+            
+            <Hobbies />
           </Col>
         </Row>
         <h1 className="project-heading">
