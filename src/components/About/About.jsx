@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Hobbies from "./Hobbies";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
       <Particle/>
       <Container >
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
+          <Col 
             md={7}
             style={{
               justifyContent: "center",
@@ -32,6 +33,7 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+            <Hobbies/>
           </Col>
         </Row>
         <h1 className="project-heading">

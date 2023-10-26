@@ -11,6 +11,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMessage,
 } from "react-icons/ai";
 
 function NavBar() {
@@ -24,7 +25,7 @@ function NavBar() {
       updateNavbar(false);
     }
   }
-  
+
   window.addEventListener("scroll", scrollHandler);
 
   return (
@@ -74,6 +75,15 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Proyectos
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMessage style={{ marginBottom: "2px" }} /> Contacto
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">
