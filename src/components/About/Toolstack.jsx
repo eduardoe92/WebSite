@@ -10,6 +10,8 @@ import {
   SiFigma,
   SiZoom,
   SiDiscord,
+  SiJira,
+  SiTrello,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -41,6 +43,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrello />
       </Col>
     </Row>
   );
