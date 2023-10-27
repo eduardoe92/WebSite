@@ -456,9 +456,7 @@ button:focus {
 /* Projects */
 /* --------- */
 
-@media (min-width: 768px) and (max-wight: 1023px) {
-
-}
+@media (min-width: 768px) and (max-wight: 1023px) {}
 
 .project-section {
   position: relative !important;
@@ -679,3 +677,40 @@ button:focus {
   display: none !important;
 }
 
+/********/
+/* FORM */
+/********/
+
+.form-input {
+  width: 50% !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 50px;
+}
+
+.form-user {
+  width: 70% !important;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 481px) and (max-width: 1224px) {
+  .form-input {
+    width: 70% !important;
+  }
+
+  .form-user {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-input {
+    width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .form-user {
+    width: 80% !important;
+  }
+}
