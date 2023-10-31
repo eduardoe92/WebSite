@@ -8,6 +8,7 @@ import ProEidos from "../../Assets/Projects/Proyecto-Eidos.png";
 import ConsoleLogAr from "../../Assets/Projects/ConsoleLog.Ar.png";
 import RickAndMorty from "../../Assets/Projects/RickAndMorty.png";
 import ShopMax from "../../Assets/Projects/ShopMax.png";
+import CarolineSeda from "../../Assets/Projects/CarolineSeda.png"
 
 
 function Projects() {
@@ -53,6 +54,16 @@ function Projects() {
               description="Proyecto Pokedex creado utilizando React, se utilizó la API de Pokemon, donde podrás encontrar las especificaciones de tu pokemon favorito. Se encuentra implementada en Vercel."
               ghLink="https://github.com/eduardoe92/Pokedex"
               demoLink="https://pokedex-eduardoe92.vercel.app/"
+            />
+          </Col>
+          <Col md={isDesktop ? 6 : 4} className="project-card">
+            <ProjectCard
+              imgPath={CarolineSeda}
+              isBlog={false}
+              title="Caroline Seda"
+              description="Proyecto de Digital Nao, creacion de una Landing Page para 'Caroline Seda', una licenciada en Administración y Dirección de Empresas. Solo se utilizó tecnologías HTML, CSS, Bootstrap."
+              ghLink="https://github.com/eduardoe92/CarolineSada"
+              demoLink="https://eduardoe92.github.io/CarolineSada/"
             />
           </Col>
           <Col md={isDesktop ? 6 : 4} className="project-card">
