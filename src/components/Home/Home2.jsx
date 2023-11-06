@@ -20,7 +20,7 @@ function Home2() {
               <br />
               <br />A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:
               <i>
-                <b className="purple"> Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Figma, React, GitHub, MySQL, Spring y WordPress. </b>
+                <b className="purple"> Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, React, GitHub, MySQL, Vercel, Spring, Figma, Trello, Jira y WordPress. </b>
               </i>
               <br />
               <br />
