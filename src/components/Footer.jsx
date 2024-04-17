@@ -5,7 +5,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaDiscord, FaLinkedinIn } from "react-icons/fa";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logo.webp";
 
 function Footer() {
   let date = new Date();

@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import MakisanTech from "../../Assets/Projects/Makisan-Tech.png";
-import Pokedex from "../../Assets/Projects/Pokedex.png";
-import ProEidos from "../../Assets/Projects/Proyecto-Eidos.png";
-import ConsoleLogAr from "../../Assets/Projects/ConsoleLog.Ar.png";
-import RickAndMorty from "../../Assets/Projects/RickAndMorty.png";
-import ShopMax from "../../Assets/Projects/ShopMax.png";
-import CarolineSeda from "../../Assets/Projects/CarolineSeda.png"
+import MakisanTech from "../../Assets/Projects/Makisan-Tech.webp";
+import Pokedex from "../../Assets/Projects/Pokedex.webp";
+import ProEidos from "../../Assets/Projects/Proyecto-Eidos.webp";
+import ConsoleLogAr from "../../Assets/Projects/ConsoleLog.Ar.webp";
+import RickAndMorty from "../../Assets/Projects/RickAndMorty.webp";
+import ShopMax from "../../Assets/Projects/ShopMax.webp";
+import CarolineSeda from "../../Assets/Projects/CarolineSeda.webp"
 
 
 function Projects() {
