@@ -325,6 +325,15 @@ button:focus {
   }
 }
 
+@media (max-width: 1224px) {
+  .tilt {
+    display: none;
+  }
+}
+
+
+
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
@@ -386,14 +395,14 @@ button:focus {
 }
 
 .home-social-icons:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  transform: scale(1.2) !important;
+  box-shadow: 0 0 15px #801f95 !important;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #87209e !important;
+  box-shadow: 0 0 5px #87209e !important;
+  text-shadow: 0 0 2px #87209e !important;
 }
 
 .social-icons {
@@ -483,9 +492,18 @@ button:focus {
 }
 
 .project-card-view:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.04) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.project-card-view-form {
+  box-shadow: 0 4px 5px 3px rgb(112, 12, 134) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: auto !important;
 }
 
 .blog-card {

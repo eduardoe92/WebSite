@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiGit } from "react-icons/di";
+import { DiGit, DiGithubBadge } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -15,44 +15,34 @@ import {
 } from "react-icons/si";
 
 function Toolstack() {
+
+  const tools = [
+    { icon: <SiWindows />, name: 'Windows' },
+    { icon: <SiVisualstudiocode />, name: 'Visual Studio Code' },
+    { icon: <SiDiscord />, name: 'Discord' },
+    { icon: <SiPostman />, name: 'Postman' },
+    { icon: <SiApachenetbeanside />, name: 'Apache NetBeans' },
+    { icon: <SiVercel />, name: 'Vercel' },
+    { icon: <DiGithubBadge />, name: 'GitHub' },
+    { icon: <DiGit />, name: 'Git' },
+    { icon: <SiZoom />, name: 'Zoom' },
+    { icon: <SiFigma />, name: 'Figma' },
+    { icon: <SiJira />, name: 'Jira' },
+    { icon: <SiTrello />, name: 'Trello' },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDiscord />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachenetbeanside />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiZoom />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTrello />
-      </Col>
+      {tools.map((tool, index) => (
+        <Col key={index} xs={4} md={2} className="tech-icons">
+          {tool.icon}
+          <div className="text-muted fs-6">
+            {tool.name}
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }
 
 export default Toolstack;
-

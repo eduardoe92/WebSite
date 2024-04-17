@@ -36,7 +36,7 @@ function About() {
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "380px" }}
+              style={{ maxHeight: "380px", marginBottom: "18%" }}
             />
             <Hobbies />
           </Col>

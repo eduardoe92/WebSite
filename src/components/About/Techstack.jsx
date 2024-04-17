@@ -13,41 +13,32 @@ import {
 } from "react-icons/di";
 
 function Techstack() {
+
+  const stack = [
+    { icon: <DiJava />, name: 'Java' },
+    { icon: <DiJavascript1 />, name: 'JavaScript' },
+    { icon: <DiReact />, name: 'ReactJS' },
+    { icon: <DiHtml5 />, name: 'HTML' },
+    { icon: <DiCss3 />, name: 'CSS' },
+    { icon: <DiMysql />, name: 'MySQL' },
+    { icon: <SiSpring />, name: 'Spring Framework' },
+    { icon: <SiBootstrap />, name: 'Bootstrap' },
+    { icon: <DiWordpress />, name: 'WordPress' },
+    { icon: <SiTailwindcss />, name: 'Tailwind CSS' },
+    { icon: <DiNodejs />, name: 'Node.JS' },
+  ];
+
   return (
+
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiWordpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSpring />
-      </Col>
+      {stack.map((stack, index) => (
+        <Col key={index} xs={4} md={2} className="tech-icons">
+          {stack.icon}
+          <div className="text-muted fs-6">
+            {stack.name}
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }

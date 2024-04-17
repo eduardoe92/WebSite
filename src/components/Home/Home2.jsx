@@ -41,7 +41,7 @@ function Home2() {
                 className="img-fluid"
                 alt="avatar"
                 style={{
-                  borderRadius: '175px',
+                  borderRadius: '45%',
                   boxShadow: '10px 10px 20px rgb(112, 12, 134)'
                 }}
               />

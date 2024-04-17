@@ -7,9 +7,6 @@ import { Row } from "react-bootstrap";
 
 const formFields = [
     { label: "Nombre:", type: "text" },
-    { label: "Apellido:", type: "text" },
-    { label: "Pais:", type: "text" },
-    { label: "Telefono:", type: "text" },
     { label: "Correo:", type: "email" },
     { label: "Mensaje:", type: "textarea" },
 ];
@@ -23,30 +20,18 @@ function ContactForm() {
         return emailRegex.test(email);
     };
 
-    const isValidNumber = (number) => {
-        const numberRegex = /^\d+$/;
-        return numberRegex.test(number);
-    };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
         const nombre = formData.get("nombre");
-        const apellido = formData.get("apellido");
-        const pais = formData.get("pais");
-        const telefono = formData.get("telefono");
         const correo = formData.get("correo");
         const mensaje = formData.get("mensaje");
         if (
             !nombre ||
-            !apellido ||
-            !pais ||
-            !telefono ||
             !correo ||
             !mensaje ||
             mensaje.length > 1500 ||
-            !isValidEmail(correo) ||
-            !isValidNumber(telefono)
+            !isValidEmail(correo)
         ) {
             setErrorMessage("Por favor, complete todos los campos correctamente.");
             return;
@@ -59,9 +44,6 @@ function ContactForm() {
                 },
                 body: JSON.stringify({
                     nombre,
-                    apellido,
-                    pais,
-                    telefono,
                     correo,
                     mensaje,
                 }),
@@ -95,14 +77,14 @@ function ContactForm() {
                                         as={field.type}
                                         rows={3}
                                         maxLength={1500}
-                                        className="project-card-view form-user text-right"
+                                        className="project-card-view-form form-user text-right"
                                         name={field.label.toLowerCase()}
                                         placeholder={`Escribe tu ${field.label.toLowerCase().replace(':', '')}`}
                                     />
                                 ) : (
                                     <Form.Control
                                         type={field.type}
-                                        className="project-card-view form-user text-right"
+                                        className="project-card-view-form form-user text-right"
                                         name={field.label.toLowerCase()}
                                         placeholder={`${field.label.replace(':', '')}`}
                                     />

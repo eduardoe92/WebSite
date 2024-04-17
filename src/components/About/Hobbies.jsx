@@ -1,9 +1,18 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { FaBaseballBall, FaCamera, FaCar, FaFutbol, FaHeadphones,FaPlane } from "react-icons/fa";
+import { FaBaseballBall, FaCamera, FaCar, FaFutbol, FaHeadphones, FaPlane } from "react-icons/fa";
 import { ImPointRight } from "react-icons/im";
 
 function Hobbies() {
+    const hobbies = [
+        { icon: <FaPlane />, text: "Me encanta Viajar" },
+        { icon: <FaCamera />, text: "La Fotografía" },
+        { icon: <FaCar />, text: "La Fórmula 1" },
+        { icon: <FaBaseballBall />, text: "El Béisbol" },
+        { icon: <FaFutbol />, text: "El Fútbol" },
+        { icon: <FaHeadphones />, text: "El Rock" }
+    ];
+
     return (
         <Card className="quote-card-view">
             <Card.Body>
@@ -12,24 +21,11 @@ function Hobbies() {
                         <ImPointRight /> Mis <strong className="purple">Hobbies</strong> incluyen:
                     </p>
                     <ul>
-                        <li className="about-activity">
-                            <FaPlane /> Me encanta Viajar
-                        </li>
-                        <li className="about-activity">
-                            <FaCamera /> La Fotografía
-                        </li>
-                        <li className="about-activity">
-                            <FaCar /> La Fórmula 1
-                        </li>
-                        <li className="about-activity">
-                            <FaBaseballBall /> El Béisbol
-                        </li>
-                        <li className="about-activity">
-                            <FaFutbol /> El Fútbol
-                        </li>
-                        <li className="about-activity">
-                            <FaHeadphones /> El Rock
-                        </li>
+                        {hobbies.map((hobby, index) => (
+                            <li key={index} className="about-activity">
+                                {hobby.icon} {hobby.text}
+                            </li>
+                        ))}
                     </ul>
                 </blockquote>
             </Card.Body>
@@ -38,3 +34,4 @@ function Hobbies() {
 }
 
 export default Hobbies;
+
