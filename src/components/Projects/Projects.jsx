@@ -19,7 +19,7 @@ function Projects() {
     {
       imgPath: ShopMax,
       title: "ShopMax",
-      description: "ShopMax, un e-commerce en desarrollo, se encuentra actualmente en fase de implementación por un equipo de programadores expertos. Utilizando tecnologías como React, Java y MySQL, nuestro objetivo es ofrecer una experiencia de compra en línea eficiente y de alta calidad que cumpla con los más altos estándares del mercado digital actual.",
+      description: "ShopMax, un e-commerce en desarrollo, se encuentra actualmente en fase de implementación entre un equipo de programadores. Estamos utilizando tecnologías como React para la interfaz de usuario, Java para la lógica y MySQL para la gestión de datos, nuestro objetivo es ofrecer una experiencia de compra en línea eficiente y de alta calidad que cumpla con los más altos estándares del mercado digital actual.",
       ghLink: "https://github.com/eduardoe92/tienda",
       demoLink: "",
     },
@@ -47,7 +47,7 @@ function Projects() {
     {
       imgPath: RickAndMorty,
       title: "Rick and Morty",
-      description: "El Proyecto Rick and Morty, desarrollado con React, utiliza la API de la serie para proporcionar a los usuarios información detallada sobre cada personaje. Esta aplicación está implementada en Vercel, asegurando una experiencia de usuario fluida y confiable.",
+      description: "El Proyecto Rick and Morty, desarrollado con React para la interfaz y utilizando la API de la serie para proporcionar a los usuarios información detallada sobre cada personaje. Esta aplicación está implementada en Vercel, asegurando una plataforma interactiva, fluida, agradable y confiable a los fans para explorar el universo de la serie.",
       ghLink: "https://github.com/eduardoe92/Pokedex",
       demoLink: "https://pokedex-eduardoe92.vercel.app/",
     },
