@@ -35,7 +35,6 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
               <img
                 src={myImg}
                 className="img-fluid"
@@ -45,7 +44,6 @@ function Home2() {
                   boxShadow: '10px 10px 20px rgb(112, 12, 134)'
                 }}
               />
-            </Tilt>
           </Col>
         </Row>
         <SocialNetworks/>

@@ -325,15 +325,6 @@ button:focus {
   }
 }
 
-@media (max-width: 1224px) {
-  .tilt {
-    display: none;
-  }
-}
-
-
-
-
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
