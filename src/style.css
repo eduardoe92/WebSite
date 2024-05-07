@@ -460,17 +460,17 @@ button:focus {
 
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding: 150px 30px;
   background-image: var(--section-background-color) !important;
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: 50 !important;
+  padding: 15px !important;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(100px, 1fr)
+  );
 }
 
 .project-card-view {
