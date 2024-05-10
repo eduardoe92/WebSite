@@ -5,6 +5,12 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
+        <h1
+          className="text-uppercase"
+          style={{ fontSize: "2.1em", paddingBottom: "20px" }}
+        >
+          Información adicional <strong className="purple">sobre mí</strong>
+        </h1>
         <blockquote
           className="blockquote mb-0"
           style={{ textAlign: "justify" }}
@@ -12,11 +18,11 @@ function AboutCard() {
           <p>
             He participado en diversos programas de formación que han
             enriquecido mi conjunto de habilidades como programador. Estos
-            programas incluyen: Programador
-            <strong className="purple"> Full Stack</strong> en 'Egg Cooperation
-            y Argentina Programa'. Desarrollador
-            <strong className="purple"> Front-End</strong> en 'Eidos Global y
-            Accenture' y actualmente en el programa
+            programas incluyen:
+            <strong className="purple"> Programador Full Stack</strong> en 'Egg Cooperation
+            y Argentina Programa'.
+            <strong className="purple"> Desarrollador Front-End</strong> en 'Eidos Global y
+            Accenture' y actualmente el programa
             <strong className="purple"> Full Stack Developer Core</strong> en
             'Digital Nao x Tecmilenio'.
           </p>

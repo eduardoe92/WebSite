@@ -20,15 +20,9 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "5px",
+              paddingBottom: "15px",
             }}
           >
-            <h1
-              className="text-uppercase"
-              style={{ fontSize: "2.1em", paddingBottom: "20px" }}
-            >
-              Información adicional <strong className="purple">sobre mí</strong>
-            </h1>
             <Aboutcard />
             <SoftSkills />
           </Col>
@@ -41,19 +35,12 @@ function About() {
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "380px", marginBottom: "17%" }}
+              style={{ maxHeight: "380px", marginBottom: "10%" }}
             />
             <Hobbies />
           </Col>
         </Row>
-        <h1 className="project-heading text-uppercase">
-          Conjunto de{" "}
-          <strong className="purple">Habilidades Profesionales</strong>
-        </h1>
         <Techstack />
-        <h1 className="project-heading text-uppercase">
-          <strong className="purple">Herramientas</strong> que utilizo
-        </h1>
         <Toolstack />
         <Github />
       </Container>
