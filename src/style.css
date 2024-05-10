@@ -1,10 +1,14 @@
 html {
-  --section-background-color: linear-gradient(to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904));
-  --image-gradient: linear-gradient(to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863));
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
   --imp-text-color: #c770f0;
 }
 
@@ -153,8 +157,8 @@ button:focus {
 .logo {
   height: 3.5em !important;
   width: 4.1em !important;
-  border-Radius: 175px;
-  box-Shadow: 5px 5px 10px rgb(112, 12, 134);
+  border-radius: 175px;
+  box-shadow: 5px 5px 10px rgb(112, 12, 134);
 }
 
 .navbar-nav .nav-link {
@@ -452,7 +456,8 @@ button:focus {
 /* Projects */
 /* --------- */
 
-@media (min-width: 768px) and (max-wight: 1023px) {}
+@media (min-width: 768px) and (max-wight: 1023px) {
+}
 
 .project-section {
   position: relative !important;
@@ -464,10 +469,7 @@ button:focus {
 .project-card {
   padding: 15px !important;
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(100px, 1fr)
-  );
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .project-card-view {
@@ -479,11 +481,11 @@ button:focus {
   height: auto !important;
 }
 
-.project-card-view:hover {
+@media (min-width: 1025px) {.project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
-}
+}}
 
 .project-card-view-form {
   box-shadow: 0 4px 5px 3px rgb(112, 12, 134) !important;
@@ -594,10 +596,12 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+@media (min-width: 1025px) {
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  }
 }
 
 .tech-icon-images {

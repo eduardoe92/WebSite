@@ -23,7 +23,7 @@ function Home2() {
               </p>
               <p>
                 Actualmente resido en
-                <strong className="purple"> Buenos Aires, Argentina,</strong>
+                <strong className="purple"> Buenos Aires, Argentina, </strong>
                 aunque soy originario de
                 <strong className="purple"> Mérida, Venezuela.</strong>
               </p>
@@ -33,9 +33,9 @@ function Home2() {
                 industria, las cuales son:
                 <strong className="purple">
                   {" "}
-                  Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, React,
-                  Astro, GitHub, MySQL, Vercel, Spring, Figma, Trello, Jira y
-                  WordPress.
+                  Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap,
+                  Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel,
+                  GitHub, Figma, Jira, Trello, Notion y Miro.
                 </strong>
               </p>
               <p>
