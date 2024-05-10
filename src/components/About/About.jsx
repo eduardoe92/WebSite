@@ -22,8 +22,8 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              INFORMACIÓN ADICIONAL <strong className="purple">SOBRE MÍ</strong>
+            <h1 className= "text-uppercase"style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Información adicional <strong className="purple">sobre mí</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -41,12 +41,12 @@ function About() {
             <Hobbies />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          CONJUNTO DE <strong className="purple">HABILIDADES PROFESIONALES</strong>
+        <h1 className="project-heading text-uppercase">
+          Conjunto de <strong className="purple">Habilidades Profesionales</strong>
         </h1>
         <Techstack />
-        <h1 className="project-heading">
-          <strong className="purple">HERRAMIENTAS</strong> QUE UTILIZO
+        <h1 className="project-heading text-uppercase">
+          <strong className="purple">Herramientas</strong> que utilizo
         </h1>
         <Toolstack />
         <Github />

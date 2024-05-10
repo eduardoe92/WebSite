@@ -1,4 +1,4 @@
-import { SiSpring, SiBootstrap, SiTailwindcss } from "react-icons/si";
+import { SiSpring, SiBootstrap, SiTailwindcss, SiAstro } from "react-icons/si";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
@@ -9,23 +9,24 @@ import {
   DiHtml5,
   DiJava,
   DiCss3,
-  DiWordpress,
+  DiWordpress
 } from "react-icons/di";
 
 function Techstack() {
 
   const stack = [
     { icon: <DiJava />, name: 'Java' },
-    { icon: <DiJavascript1 />, name: 'JavaScript' },
     { icon: <DiReact />, name: 'ReactJS' },
+    { icon: <SiAstro/>, name: 'Astro'},
+    { icon: <DiMysql />, name: 'MySQL' },
+    { icon: <DiJavascript1 />, name: 'JavaScript' },
     { icon: <DiHtml5 />, name: 'HTML' },
     { icon: <DiCss3 />, name: 'CSS' },
-    { icon: <DiMysql />, name: 'MySQL' },
-    { icon: <SiSpring />, name: 'Spring Framework' },
     { icon: <SiBootstrap />, name: 'Bootstrap' },
-    { icon: <DiWordpress />, name: 'WordPress' },
     { icon: <SiTailwindcss />, name: 'Tailwind CSS' },
-    { icon: <DiNodejs />, name: 'Node.JS' },
+    { icon: <SiSpring />, name: 'Spring Framework' },
+    { icon: <DiWordpress />, name: 'WordPress' },
+    { icon: <DiNodejs />, name: 'Node.JS' }
   ];
 
   return (

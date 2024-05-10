@@ -17,7 +17,7 @@ function Hobbies() {
         <Card className="quote-card-view">
             <Card.Body>
                 <blockquote className="blockquote mb-0">
-                    <p className="about-activity">
+                    <p className="about-activity text-uppercase">
                         <ImPointRight /> Mis <strong className="purple">Hobbies</strong> incluyen:
                     </p>
                     <ul>

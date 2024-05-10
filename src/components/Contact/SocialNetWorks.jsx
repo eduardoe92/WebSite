@@ -1,30 +1,24 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import SocialIcon from "./SocialIcon";
 
 function SocialNetworks() {
 
-    const socialLinks = [
-        { url: "https://github.com/eduardoe92", icon: <AiFillGithub />, text: "GitHub" },
-        { url: "https://www.linkedin.com/in/eduardoe92", icon: <FaLinkedinIn />, text: "LinkedIn" },
-        { url: "https://www.instagram.com/eduardo.e", icon: <AiFillInstagram />, text: "Instagram" }
-    ];
-
     return (
         <Row>
-            <Col md={12} className="home-about-social">
-                <h1>ENCUÉNTRAME EN MIS <strong className="purple">REDES SOCIALES</strong></h1>
+            <Col md={12} className="home-about-social text-uppercase">
+                <h1>Encuéntrame en mis <strong className="purple">redes sociales</strong></h1>
                 <ul className="home-about-social-links">
-                    {socialLinks.map((link, index) => (
+                    {SocialIcon.map((link, index) => (
                         <li key={index} className="social-icons">
                             <a
-                                href={link.url}
+                                href={link.href}
+                                style={{color:'#700c86'}}
                                 target="_blank"
                                 rel="noreferrer"
-                                className="icon-colour home-social-icons"
+                                className="home-social-icons"
                             >
-                                {link.icon}
+                                <link.icon />
                             </a>
                         </li>
                     ))}

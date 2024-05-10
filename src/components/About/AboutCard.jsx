@@ -37,7 +37,7 @@ function AboutCard() {
             mis habilidades en programación web.
             <br />
           </p>
-          <p className="about-activity">
+          <p className="about-activity text-uppercase">
             <ImPointRight /> Poseo <strong className="purple">Habilidades</strong> en:
           </p>
           <ul>

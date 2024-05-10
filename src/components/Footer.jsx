@@ -1,15 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaDiscord, FaLinkedinIn } from "react-icons/fa";
 import logo from "../Assets/logo.webp";
+import SocialIcon from "./Contact/SocialIcon";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <Container fluid className="footer">
       <Row>
@@ -23,46 +20,18 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/eduardoe92"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://discord.com/channels/@eduardo.e"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaDiscord />
-              </a>
-            </li> */}
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/eduardoe92"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/eduardo.e"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
+            {SocialIcon.map((link, index) => (
+              <li key={index} className="social-icons">
+                <a
+                  href={link.href}
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <link.icon />
+                </a>
+              </li>
+            ))}
           </ul>
         </Col>
       </Row>

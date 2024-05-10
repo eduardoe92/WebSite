@@ -21,8 +21,8 @@ function Contact() {
                             paddingBottom: "50px",
                         }}
                     >
-                        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                            GRACIAS POR QUERER <strong className="purple">COMUNICARTE CONMIGO</strong>
+                        <h1 className= "text-uppercase" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                            Gracias por querer <strong className="purple">Comunicarte conmigo</strong>
                         </h1>
                         <ContactText />
                     </Col>

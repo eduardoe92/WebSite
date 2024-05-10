@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/ImagePersonal.webp";
-import Tilt from "react-parallax-tilt";
 import SocialNetworks from "../Contact/SocialNetWorks";
 
 function Home2() {
@@ -10,8 +9,8 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              PERMÍTEME <strong className="purple"> PRESENTARME </strong>
+            <h1 className= "text-uppercase" style={{ fontSize: "2.6em" }}>
+              Permíteme <strong className="purple"> Presentarme </strong>
             </h1>
             <p className="home-about-body">
               Soy un apasionado <strong className="purple">Programador Web</strong> en constante formación.
@@ -20,7 +19,7 @@ function Home2() {
               <br />
               <br />A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:
               <i>
-                <b className="purple"> Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, React, GitHub, MySQL, Vercel, Spring, Figma, Trello, Jira y WordPress. </b>
+                <b className="purple"> Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, React, Astro, GitHub, MySQL, Vercel, Spring, Figma, Trello, Jira y WordPress. </b>
               </i>
               <br />
               <br />
