@@ -7,12 +7,13 @@ import Aboutcard from "./AboutCard";
 import homeLogo from "../../Assets/user.svg";
 import Toolstack from "./Toolstack";
 import Hobbies from "./Hobbies";
+import SoftSkills from "./SoftSkills";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <Container >
+      <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -22,10 +23,14 @@ function About() {
               paddingBottom: "5px",
             }}
           >
-            <h1 className= "text-uppercase"style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1
+              className="text-uppercase"
+              style={{ fontSize: "2.1em", paddingBottom: "20px" }}
+            >
               Información adicional <strong className="purple">sobre mí</strong>
             </h1>
             <Aboutcard />
+            <SoftSkills />
           </Col>
           <Col
             md={5}
@@ -36,13 +41,14 @@ function About() {
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "380px", marginBottom: "38px" }}
+              style={{ maxHeight: "380px", marginBottom: "17%" }}
             />
             <Hobbies />
           </Col>
         </Row>
         <h1 className="project-heading text-uppercase">
-          Conjunto de <strong className="purple">Habilidades Profesionales</strong>
+          Conjunto de{" "}
+          <strong className="purple">Habilidades Profesionales</strong>
         </h1>
         <Techstack />
         <h1 className="project-heading text-uppercase">
