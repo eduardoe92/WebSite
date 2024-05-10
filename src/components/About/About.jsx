@@ -19,7 +19,7 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingBottom: "5px",
             }}
           >
             <h1 className= "text-uppercase"style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
@@ -36,7 +36,7 @@ function About() {
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "380px", marginBottom: "18%" }}
+              style={{ maxHeight: "380px", marginBottom: "38px" }}
             />
             <Hobbies />
           </Col>

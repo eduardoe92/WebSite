@@ -9,43 +9,65 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 className= "text-uppercase" style={{ fontSize: "2.6em" }}>
+            <h1 className="text-uppercase" style={{ fontSize: "2.6em" }}>
               Permíteme <strong className="purple"> Presentarme </strong>
             </h1>
-            <p className="home-about-body">
-              Soy un apasionado <strong className="purple">Programador Web</strong> en constante formación.
-              <br />
-              <br />Actualmente resido en <strong className="purple">Buenos Aires, Argentina,</strong> aunque soy originario de <b className="purple">Mérida, Venezuela.</b>
-              <br />
-              <br />A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:
-              <i>
-                <b className="purple"> Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, React, Astro, GitHub, MySQL, Vercel, Spring, Figma, Trello, Jira y WordPress. </b>
-              </i>
-              <br />
-              <br />
-              Siento una profunda pasión por la tecnología y el desarrollo web, y estoy comprometido a seguir aprendiendo cada día para convertirme en un&nbsp;
-              <i>
-                <strong className="purple">Profesional de Excelencia</strong> en el {" "}
-                <strong className="purple">Mundo IT.</strong>
-              </i>
-              <br />
-              <br />
-              Estoy dispuesto a asumir <strong className="purple">Nuevos Desafíos</strong> y formar parte de equipos innovadores en el sector.
-            </p>
+            <blockquote
+              className="home-about-body"
+              style={{ textAlign: "justify" }}
+            >
+              <p>
+                Soy un apasionado
+                <strong className="purple"> Programador Web</strong> en
+                constante formación.{" "}
+              </p>
+              <p>
+                Actualmente resido en
+                <strong className="purple"> Buenos Aires, Argentina,</strong>
+                aunque soy originario de
+                <strong className="purple"> Mérida, Venezuela.</strong>
+              </p>
+              <p>
+                A lo largo de mi trayecto, he invertido mi tiempo en adquirir
+                diversos conocimientos y habilidades relevantes para la
+                industria, las cuales son:
+                <strong className="purple">
+                  {" "}
+                  Java, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, React,
+                  Astro, GitHub, MySQL, Vercel, Spring, Figma, Trello, Jira y
+                  WordPress.
+                </strong>
+              </p>
+              <p>
+                Siento una profunda pasión por la tecnología y el desarrollo
+                web, y estoy comprometido a seguir aprendiendo cada día para
+                convertirme en un
+                <strong className="purple">
+                  {" "}
+                  Profesional de Excelencia
+                </strong>{" "}
+                en el <strong className="purple"> Mundo IT.</strong>
+              </p>
+              <p>
+                Estoy dispuesto a asumir
+                <strong className="purple"> Nuevos Desafíos</strong> y formar
+                parte de equipos innovadores en el sector.
+              </p>
+            </blockquote>
           </Col>
           <Col md={4} className="myAvtar">
-              <img
-                src={myImg}
-                className="img-fluid"
-                alt="avatar"
-                style={{
-                  borderRadius: '45%',
-                  boxShadow: '10px 10px 20px rgb(112, 12, 134)'
-                }}
-              />
+            <img
+              src={myImg}
+              className="img-fluid"
+              alt="avatar"
+              style={{
+                borderRadius: "45%",
+                boxShadow: "10px 10px 20px rgb(112, 12, 134)",
+              }}
+            />
           </Col>
         </Row>
-        <SocialNetworks/>
+        <SocialNetworks />
       </Container>
     </Container>
   );

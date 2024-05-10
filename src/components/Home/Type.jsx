@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
+    <Typewriter className="text-uppercase"
       options={{
         strings: [
           "Programador Full Stack",
