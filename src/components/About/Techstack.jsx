@@ -11,6 +11,7 @@ import {
   DiCss3,
   DiWordpress,
 } from "react-icons/di";
+import { t } from "i18next";
 
 function Techstack() {
   const stack = [
@@ -31,8 +32,8 @@ function Techstack() {
   return (
     <>
       <h1 className="project-heading text-uppercase">
-        Conjunto de{" "}
-        <strong className="purple">Habilidades Profesionales</strong>
+        {t("title_tech_stack_1")}{" "}
+        <strong className="purple">{t("title_tech_stack_2")}</strong>
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         {stack.map((stack, index) => (

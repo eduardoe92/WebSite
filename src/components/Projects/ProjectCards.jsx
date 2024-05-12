@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { t } from "i18next";
 
 function ProjectCards(props) {
   return (
@@ -31,7 +32,7 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Deployer"}
+            {t("Deployer")}
           </Button>
         )}
       </Card.Body>

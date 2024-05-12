@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/ImagePersonal.webp";
 import SocialNetworks from "../Contact/SocialNetWorks";
+import { t } from "i18next";
 
 function Home2() {
   return (
@@ -10,48 +11,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 className="text-uppercase" style={{ fontSize: "2.6em" }}>
-              Permíteme <strong className="purple"> Presentarme </strong>
+              {t("home_title_1")}{" "}
+              <strong className="purple"> {t("home_title_2")} </strong>
             </h1>
             <blockquote
               className="home-about-body"
               style={{ textAlign: "justify" }}
             >
               <p>
-                Soy un apasionado
-                <strong className="purple"> Programador Web</strong> en
-                constante formación.{" "}
+                {t("home_text_1")}{" "}
+                <strong className="purple"> {t("home_text_2")}</strong>{" "}
+                {t("home_text_3")}
               </p>
               <p>
-                Actualmente resido en
-                <strong className="purple"> Buenos Aires, Argentina, </strong>
-                aunque soy originario de
-                <strong className="purple"> Mérida, Venezuela.</strong>
+                {t("home_text_4")}{" "}
+                <strong className="purple">{t("home_text_5")}</strong>{" "}
+                {t("home_text_6")}{" "}
+                <strong className="purple">{t("home_text_7")}</strong>
               </p>
               <p>
-                A lo largo de mi trayecto, he invertido mi tiempo en adquirir
-                diversos conocimientos y habilidades relevantes para la
-                industria, las cuales son:
-                <strong className="purple">
-                  {" "}
-                  Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap,
-                  Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel,
-                  GitHub, Figma, Jira, Trello, Notion y Miro.
-                </strong>
+                {t("home_text_8")}{" "}
+                <strong className="purple"> {t("home_text_9")}</strong>
               </p>
               <p>
-                Siento una profunda pasión por la tecnología y el desarrollo
-                web, y estoy comprometido a seguir aprendiendo cada día para
-                convertirme en un
-                <strong className="purple">
-                  {" "}
-                  Profesional de Excelencia
-                </strong>{" "}
-                en el <strong className="purple"> Mundo IT.</strong>
+                {t("home_text_10")}{" "}
+                <strong className="purple"> {t("home_text_11")}</strong>{" "}
+                {t("home_text_12")}{" "}
+                <strong className="purple"> {t("home_text_13")}</strong>
               </p>
               <p>
-                Estoy dispuesto a asumir
-                <strong className="purple"> Nuevos Desafíos</strong> y formar
-                parte de equipos innovadores en el sector.
+                {t("home_text_14")}{" "}
+                <strong className="purple">{t("home_text_15")}</strong>{" "}
+                {t("home_text_16")}
               </p>
             </blockquote>
           </Col>

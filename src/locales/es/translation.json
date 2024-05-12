@@ -1,0 +1,133 @@
+{
+  "home": "inicio",
+  "aboutMe": "Acerca de mí",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+
+  "welcome": "Hola a todos!",
+  "iAm": "Soy",
+  "name": "Eduardo Elias Chacón",
+
+  "strings_type": [
+    "Programador Full Stack",
+    "Desarrollador Web",
+    "Entusiasta",
+    "Innovador",
+    "Creativo",
+    "Apasionado por la Tecnología"
+  ],
+
+  "home_title_1": "Permíteme",
+  "home_title_2": "Presentarme",
+
+  "home_text_1": "Soy un apasionado",
+  "home_text_2": "Programador Web",
+  "home_text_3": "en constante formación.",
+  "home_text_4": "Actualmente resido en",
+  "home_text_5": "Buenos Aires, Argentina,",
+  "home_text_6": "aunque soy originario de",
+  "home_text_7": "Mérida, Venezuela.",
+  "home_text_8": "A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:",
+  "home_text_9": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion y Miro.",
+  "home_text_10": "Siento una profunda pasión por la tecnología y el desarrollo web, y estoy comprometido a seguir aprendiendo cada día para convertirme en un",
+  "home_text_11": "Profesional de Excelencia",
+  "home_text_12": "en el",
+  "home_text_13": "Mundo IT.",
+  "home_text_14": "Estoy dispuesto a asumir",
+  "home_text_15": "Nuevos Desafíos",
+  "home_text_16": "y formar parte de equipos innovadores en el sector.",
+
+  "about_tile_1": "Información adicional",
+  "about_tile_2": "acerca de mí",
+
+  "about_text_1": "He participado en diversos programas de formación que han enriquecido mi conjunto de habilidades como programador. Estos programas incluyen:",
+  "about_text_2": "Programador Full — Stack",
+  "about_text_3": "en 'Egg Cooperation y Argentina Programa'.",
+  "about_text_4": "Desarrollador Front — End",
+  "about_text_5": " en 'Eidos Global y Accenture' y actualmente el programa",
+  "about_text_6": "Full Stack — Developer Core",
+  "about_text_7": "en 'Digital Nao x Tecmilenio'.",
+  "about_text_8": "Anteriormente formé parte de la",
+  "about_text_9": "Universidad de los Andes,",
+  "about_text_10": "en la ciudad de Mérida — Venezuela, en donde estudié la carrera de",
+  "about_text_11": "Ingeniería Eléctrica.",
+  "about_text_12": "Además de mi formación formal, he buscado de manera autodidacta expandir mis conocimientos a través de plataformas educativas como",
+  "about_text_13": "Udemy, FundAula y Educacion IT.",
+  "about_text_14": "Adicionalmente, he trabajado en",
+  "about_text_15": "Proyectos Personales,",
+  "about_text_16": "que me han permitido aplicar y fortalecer mis habilidades en programación web.",
+
+  "soft_skills_title_1": "Poseo",
+  "soft_skills_title_2": "Habilidades",
+  "soft_skills_title_3": "en:",
+
+  "text_skills_1": "Pensamiento Lógico y Analítico",
+  "text_skills_2": "Comunicación Efectiva",
+  "text_skills_3": "Atención a los Detalles",
+  "text_skills_4": "Gestión del Tiempo",
+  "text_skills_5": "Trabajar en Equipo",
+  "text_skills_6": "Adaptabilidad",
+  "text_skills_7": "Creatividad",
+
+  "hobbies_title_1": "Mis",
+  "hobbies_title_2": "Hobbies",
+  "hobbies_title_3": "son:",
+
+  "text_hobbie_1": "Me encanta Viajar",
+  "text_hobbie_2": "La Fotografía",
+  "text_hobbie_3": "La Fórmula 1",
+  "text_hobbie_4": "El Béisbol",
+  "text_hobbie_5": "El Fútbol",
+  "text_hobbie_6": "El Rock",
+
+  "title_tech_stack_1": "Conjunto de",
+  "title_tech_stack_2": "Habilidades Profesionales",
+
+  "title_tool_stack_1": "Herramientas",
+  "title_tool_stack_2": "que utilizo",
+
+  "title_github_1": "Historial",
+  "title_github_2": "Github",
+
+
+  "title_project_sesion_1": "Mis",
+  "title_project_sesion_2": "Proyectos",
+
+  "subtitle_project_sesion_1": "A continuación te enseño algunos",
+  "subtitle_project_sesion_2": "proyectos",
+  "subtitle_project_sesion_3": "en los que he estado trabajando.",
+
+  "description_project_1":"Como proyecto final para el curso Eidos Global, diseñé una página de presentación personal utilizando HTML, CSS y JavaScript. La implementación de una interfaz interactiva fue fundamental para mejorar la experiencia del usuario, garantizando su adaptabilidad a diferentes dispositivos mediante un diseño responsivo.",
+  "description_project_2": "La Landing Page de Makisan-Tech, desarrollada con HTML, CSS y JavaScript, fue fruto de una colaboración estrecha con un equipo de desarrolladores front-end. Nuestro objetivo principal fue optimizar la experiencia del usuario, asegurando una navegación fluida y una presentación atractiva que reflejara los valores de la empresa.",
+  "description_project_3":"El Proyecto Rick and Morty, desarrollado con React para la interfaz y utilizando la API de la serie para proporcionar a los usuarios información detallada sobre cada personaje. Esta aplicación está implementada en Vercel, asegurando una plataforma interactiva, fluida, agradable y confiable a los fans para explorar el universo de la serie.",
+  "description_project_4":"El Proyecto de Digital Nao consistió en la creación de una Landing Page para 'Caroline Seda', profesional en Administración y Dirección de Empresas. Se emplearon exclusivamente tecnologías HTML, CSS y Bootstrap para su desarrollo, garantizando una presentación elegante y funcional que resalta las habilidades y servicios ofrecidos por la licenciada.",
+  "description_project_5":"El Proyecto Pokedex, desarrollado con React, aprovecha la API de Pokemon para brindar a los usuarios acceso a las especificaciones de sus Pokémon favoritos. Esta aplicación está alojada en Vercel, garantizando una experiencia fluida y confiable. Con un enfoque en la usabilidad y la precisión de los datos, el Proyecto Pokedex es una herramienta invaluable para los entusiastas de Pokémon y los desarrolladores por igual.",
+  "description_project_6":"La página oficial de la marca ConsoleLog.Ar se encuentra actualmente en proceso de desarrollo por un equipo de programadores especializados. Utilizando tecnologías fundamentales como HTML, CSS y JavaScript, estamos comprometidos en crear una plataforma web que refleje la esencia y los valores de nuestra marca, proporcionando una experiencia digital óptima para nuestros usuarios.",
+  "description_project_7":"ShopMax, un e-commerce en desarrollo, se encuentra actualmente en fase de implementación entre un equipo de programadores. Estamos utilizando tecnologías como React para la interfaz de usuario, Java para la lógica y MySQL para la gestión de datos, nuestro objetivo es ofrecer una experiencia de compra en línea eficiente y de alta calidad que cumpla con los más altos estándares del mercado digital actual.",
+
+  "Deployer":"Desplegar",
+
+  "contact_title_1": "Gracias por querer",
+  "contact_title_2": "Comunicarte conmigo",
+
+  "contact_text_1": "Estoy a tu disposición para abordar cualquier",
+  "contact_text_2": "pregunta o inquietud",
+  "contact_text_3": "que puedas tener. Si deseas ponerte en contacto conmigo, puedes contactarme através de mis",
+  "contact_text_4": "redes sociales.",
+  "contact_text_5": "Por favor, ten en cuenta que mi disponibilidad puede variar, pero haré todo lo posible por responder a tu",
+  "contact_text_6": "mensaje",
+  "contact_text_7": "en el menor tiempo posible.",
+  "contact_text_8": "¡Espero tener",
+  "contact_text_9": "noticias",
+  "contact_text_10": "tuyas pronto!",
+  "contact_text_11": "Saludos Cordiales.",
+
+  "contact_icon_title_1": "Encuéntrame en mis",
+  "contact_icon_title_2": "Redes sociales",
+
+  "contact_icon_subtitle_1": "No dudes en",
+  "contact_icon_subtitle_2": "Contactarte",
+  "contact_icon_subtitle_3": "Conmigo"
+
+
+}

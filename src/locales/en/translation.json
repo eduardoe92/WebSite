@@ -1,0 +1,132 @@
+{
+  "home": "home",
+  "aboutMe": "About me",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "welcome": "Hello everyone!",
+  "iAm": "I am",
+  "name": "Eduardo Elias Chacón",
+
+  "strings_type": [
+    "Full Stack Programmer",
+    "Web developer",
+    "Enthusiastic",
+    "Innovative",
+    "Creative",
+    "Passionate about Technology"
+  ],
+
+  "home_title_1": "Allow me",
+  "home_title_2": "Introduce myself",
+
+  "home_text_1": "I am passionate",
+  "home_text_2": "Web Developer",
+  "home_text_3": "in constant training.",
+  "home_text_4": "I currently reside in",
+  "home_text_5": "Buenos Aires, Argentina",
+  "home_text_6": "although I am originally from",
+  "home_text_7": "Mérida, Venezuela.",
+  "home_text_8": "Throughout my journey, I have invested my time in acquiring various knowledge and skills relevant to the industry, which are:",
+  "home_text_9": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion and Miro.",
+  "home_text_10": "I have a deep passion for technology and web development, and I am committed to continuing to learn every day to become a",
+  "home_text_11": "Professional of Excellence",
+  "home_text_12": "in the",
+  "home_text_13": "IT World.",
+  "home_text_14": "I am willing to assume",
+  "home_text_15": "New Challenges",
+  "home_text_16": "and be part of innovative teams in the sector.",
+
+  "about_tile_1": "Additional information",
+  "about_tile_2": "about me",
+
+  "about_text_1": "I have participated in various training programs that have enriched my skill set as a programmer. These programs include:",
+  "about_text_2": "Full — Stack Programmer",
+  "about_text_3": "in 'Egg Cooperation and Argentina Program'.",
+  "about_text_4": "Front—End Developer",
+  "about_text_5": " at 'Eidos Global and Accenture' and currently the program",
+  "about_text_6": "Full Stack—Developer Core",
+  "about_text_7": "in 'Digital Nao x Tecmilenio'.",
+  "about_text_8": "I was previously part of the",
+  "about_text_9": "University of the Andes",
+  "about_text_10": "in the city of Mérida — Venezuela, where I studied my degree",
+  "about_text_11": "Electrical Engineering.",
+  "about_text_12": "In addition to my formal training, I have sought to expand my knowledge through educational platforms such as",
+  "about_text_13": "Udemy, FundAula and Educacion IT.",
+  "about_text_14": "Additionally, I have worked on",
+  "about_text_15": "Personal Projects",
+  "about_text_16": "which have allowed me to apply and strengthen my web programming skills.",
+
+  "soft_skills_title_1": "I possess",
+  "soft_skills_title_2": "Skills",
+  "soft_skills_title_3": "en:",
+
+  "text_skills_1": "Logical and Analytical Thinking",
+  "text_skills_2": "Effective Communication",
+  "text_skills_3": "Attention to Details",
+  "text_skills_4": "Time Management",
+  "text_skills_5": "Work as a Team",
+  "text_skills_6": "Adaptability",
+  "text_skills_7": "Creativity",
+
+  "hobbies_title_1": "My",
+  "hobbies_title_2": "Hobbies",
+  "hobbies_title_3": "are:",
+
+  "text_hobbie_1": "I love to travel",
+  "text_hobbie_2": "Photography",
+  "text_hobbie_3": "Formula 1",
+  "text_hobbie_4": "Baseball",
+  "text_hobbie_5": "Football",
+  "text_hobbie_6": "The Rock",
+
+  "title_tech_stack_1": "Stack of",
+  "title_tech_stack_2": "Professional Skills",
+
+  "title_tool_stack_1": "Tools",
+  "title_tool_stack_2": "what do I use",
+
+  "title_github_1": "History",
+  "title_github_2": "Github",
+
+
+  "title_project_session_1": "My",
+  "title_project_session_2": "Projects",
+
+  "subtitle_project_sesion_1": "Here I'll show you some",
+  "subtitle_project_session_2": "projects",
+  "subtitle_project_sesion_3": "the ones I've been working on.",
+
+  "description_project_1": "As a final project for the Eidos Global course, I designed a personal presentation page using HTML, CSS and JavaScript. The implementation of an interactive interface was essential to improve the user experience, guaranteeing its adaptability to different devices through a responsive design.",
+  "description_project_2": "The Makisan-Tech Landing Page, developed with HTML, CSS and JavaScript, was the result of close collaboration with a team of front-end developers. Our main objective was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
+  "description_project_3":"The Rick and Morty Project, developed with React for the interface and using the series' API to provide users with detailed information about each character. This application is implemented in Vercel, ensuring an interactive, fluid, pleasant platform and trustworthy to fans to explore the universe of the series.",
+  "description_project_4":"The Digital Nao Project consisted of the creation of a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. HTML, CSS and Bootstrap technologies were exclusively used for its development, guaranteeing an elegant and functional that highlights the skills and services offered by the graduate.",
+  "description_project_5":"The Pokedex Project, developed with React, leverages the Pokemon API to give users access to the specifications of their favorite Pokemon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for Pokémon enthusiasts and developers alike.",
+  "description_project_6":"The official ConsoleLog.Ar brand page is currently under development by a team of specialized programmers. Using fundamental technologies such as HTML, CSS and JavaScript, we are committed to creating a web platform that reflects the essence and the values ​​of our brand, providing an optimal digital experience for our users.",
+  "description_project_7":"ShopMax, an e-commerce in development, is currently in the implementation phase among a team of programmers. We are using technologies such as React for the user interface, Java for logic and MySQL for data management, Our goal is to offer a high-quality, efficient online shopping experience that meets the highest standards of today's digital market.",
+
+  "Deployer":"Deploy",
+
+  "contact_title_1": "Thank you for wanting",
+  "contact_title_2": "Contact me",
+
+  "contact_text_1": "I am available to address any questions",
+  "contact_text_2": "question or concern",
+  "contact_text_3": "that you may have. If you wish to contact me, you can contact me through my",
+  "contact_text_4": "social networks.",
+  "contact_text_5": "Please note that my availability may vary, but I will do my best to respond to your request",
+  "contact_text_6": "message",
+  "contact_text_7": "in the shortest possible time.",
+  "contact_text_8": "I hope to have",
+  "contact_text_9": "news",
+  "contact_text_10": "yours soon!",
+  "contact_text_11": "Best regards.",
+
+  "contact_icon_title_1": "Find me in my",
+  "contact_icon_title_2": "Social networks",
+
+  "contact_icon_subtitle_1": "Do not hesitate to",
+  "contact_icon_subtitle_2": "Contact you",
+  "contact_icon_subtitle_3": "With me"
+
+}

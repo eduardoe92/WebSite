@@ -4,6 +4,7 @@ import laptopImg from "../../Assets/about.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { t } from "i18next";
 
 function Home() {
   return (
@@ -14,21 +15,22 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hola a todos!{" "}
+                {t("welcome")}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
               <h1 className="heading-name">
-                Soy
-                <strong className="main-name"> Eduardo Elías Chacón </strong>
+              {t("iAm")}
+                <strong className="main-name"> {t("name")}</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
             <Col md={5} style={{ paddingBottom: 50, paddingTop: 50 }}>
-              <img src={laptopImg}
+              <img
+                src={laptopImg}
                 alt="about"
                 className="img-fluid"
                 style={{ maxHeight: "500px" }}

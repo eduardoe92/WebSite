@@ -6,8 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import homeLogo from "../../Assets/user.svg";
 import Toolstack from "./Toolstack";
-import Hobbies from "./Hobbies";
 import SoftSkills from "./SoftSkills";
+import Hobbies from "./Hobbies";
 
 function About() {
   return (

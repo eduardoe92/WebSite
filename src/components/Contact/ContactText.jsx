@@ -1,31 +1,35 @@
+import { t } from "i18next";
 import React from "react";
 import Card from "react-bootstrap/Card";
 
 function ContactText() {
     return (
-    <Card className="quote-card-view">
+        <Card className="quote-card-view">
         <Card.Body>
-        <blockquote className="blockquote mb-0" style={{ textAlign: "justify" }}>
+            <blockquote
+            className="blockquote mb-0"
+            style={{ textAlign: "justify" }}
+            >
             <p>
-                Estoy a tu disposición para abordar cualquier
-                <strong className="purple"> pregunta o inquietud</strong> que
-                puedas tener. Si deseas ponerte en contacto conmigo, conectarte a
-                través de mis <strong className="purple">redes sociales.</strong>
+                {t("contact_text_1")}
+                <strong className="purple"> {t("contact_text_2")}</strong>{" "}
+                {t("contact_text_3")}{" "}
+                <strong className="purple">{t("contact_text_4")}</strong>
             </p>
             <p>
-                Por favor, ten en cuenta que mi disponibilidad puede variar, pero
-                haré todo lo posible por responder a tu
-                <strong className="purple"> mensaje</strong> en el menor tiempo
-                posible.
+                {t("contact_text_5")}{" "}
+                <strong className="purple">{t("contact_text_6")}</strong>{" "}
+                {t("contact_text_7")}
             </p>
             <p>
-                ¡Espero tener <strong className="purple">noticias</strong> tuyas
-                pronto!
+                {t("contact_text_8")}{" "}
+                <strong className="purple">{t("contact_text_9")}</strong>{" "}
+                {t("contact_text_10")}
             </p>
-            <p>Saludos Cordiales.</p>
-        </blockquote>
+            <p>{t("contact_text_11")}</p>
+            </blockquote>
         </Card.Body>
-    </Card>
+        </Card>
     );
 }
 

@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ProjectList from "./ProjectList";
+import { t } from "i18next";
 
 function Projects() {
-
   const isDesktop = window.innerWidth >= 768 && window.innerWidth <= 1223;
 
   return (
@@ -13,10 +13,13 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading text-uppercase">
-          Mis <strong className="purple">Proyectos</strong>
+          {t("title_project_sesion_1")}{" "}
+          <strong className="purple">{t("title_project_sesion_2")}</strong>
         </h1>
         <p style={{ color: "white" }}>
-          A continuación te enseño algunos <strong className="purple">proyectos</strong> en los que he estado trabajando.
+          {t("subtitle_project_sesion_1")}{" "}
+          <strong className="purple">{t("subtitle_project_sesion_2")}</strong>{" "}
+          {t("subtitle_project_sesion_3")}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {ProjectList.map((project, index) => (

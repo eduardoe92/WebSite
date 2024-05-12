@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiGit, DiGithubBadge } from "react-icons/di";
@@ -37,7 +38,8 @@ function Toolstack() {
   return (
     <>
       <h1 className="project-heading text-uppercase">
-        <strong className="purple">Herramientas</strong> que utilizo
+        <strong className="purple">{t("title_tool_stack_1")}</strong>{" "}
+        {t("title_tool_stack_2")}
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         {tools.map((tool, index) => (

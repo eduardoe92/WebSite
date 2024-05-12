@@ -1,12 +1,17 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import { t } from "i18next";
 
 function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading text-uppercase" style={{ paddingBottom: "20px" }}>
-        Historial <strong className="purple">Github</strong>
+      <h1
+        className="project-heading text-uppercase"
+        style={{ paddingBottom: "20px" }}
+      >
+        {t("title_github_1")}{" "}
+        <strong className="purple">{t("title_github_2")}</strong>
       </h1>
       <GitHubCalendar
         username="eduardoe92"

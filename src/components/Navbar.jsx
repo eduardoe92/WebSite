@@ -5,14 +5,16 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.webp";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgChevronDown, CgGitFork } from "react-icons/cg";
+import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlineMessage,
 } from "react-icons/ai";
+import { t } from "i18next";
+import { BsLaptop } from "react-icons/bs";
+// import LanguageSelector from "./LanguageSelector";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -32,24 +34,22 @@ function NavBar() {
     {
       to: "/",
       icon: <AiOutlineHome />,
-      text: "Home",
+      text: t("home"),
     },
     {
       to: "/about",
       icon: <AiOutlineUser />,
-      text: "Sobre mí",
+      text: t("aboutMe"),
     },
     {
       to: "/project",
-      icon: (
-        <AiOutlineFundProjectionScreen />
-      ),
-      text: "Proyectos",
+      icon: <BsLaptop />,
+      text: t("projects"),
     },
     {
       to: "/contact",
       icon: <AiOutlineMessage />,
-      text: "Contacto",
+      text: t("contact"),
     },
   ];
 
@@ -82,21 +82,19 @@ function NavBar() {
                   as={Link}
                   to={item.to}
                   onClick={() => updateExpanded(false)}
-                  style={{ marginBottom: "2px" }} 
+                  style={{ marginBottom: "2px" }}
                 >
                   {item.icon} {item.text}
                 </Nav.Link>
               </Nav.Item>
             ))}
+
             <Nav.Item className="fork-btn">
-              <Button
-                
-                target="_blank"
-                className="fork-btn-inner"
-              > <CgChevronDown/>
-              {/* <img src="./Flags/es.svg" alt="es"/> */}
+              <Button target="_blank" className="fork-btn-inner">
+                {/* <LanguageSelector /> */}
               </Button>
             </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/eduardoe92"

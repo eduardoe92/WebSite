@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import React from "react";
 import Card from "react-bootstrap/Card";
 
@@ -9,42 +10,36 @@ function AboutCard() {
           className="text-uppercase"
           style={{ fontSize: "2.1em", paddingBottom: "20px" }}
         >
-          Información adicional <strong className="purple">sobre mí</strong>
+          {t("about_tile_1")}{" "}
+          <strong className="purple"> {t("about_tile_2")}</strong>
         </h1>
         <blockquote
           className="blockquote mb-0"
           style={{ textAlign: "justify" }}
         >
           <p>
-            He participado en diversos programas de formación que han
-            enriquecido mi conjunto de habilidades como programador. Estos
-            programas incluyen:
-            <strong className="purple"> Programador Full Stack</strong> en 'Egg Cooperation
-            y Argentina Programa'.
-            <strong className="purple"> Desarrollador Front-End</strong> en 'Eidos Global y
-            Accenture' y actualmente el programa
-            <strong className="purple"> Full Stack Developer Core</strong> en
-            'Digital Nao x Tecmilenio'.
+            {t("about_text_1")}{" "}
+            <strong className="purple">{t("about_text_2")}</strong>{" "}
+            {t("about_text_3")}{" "}
+            <strong className="purple">{t("about_text_4")}</strong>{" "}
+            {t("about_text_5")}{" "}
+            <strong className="purple">{t("about_text_6")}</strong>{" "}
+            {t("about_text_7")}
           </p>
           <p>
-            Anteriormente formé parte de la
-            <strong className="purple"> Universidad de los Andes</strong>, en la
-            ciudad de Mérida — Venezuela, en donde estudié la carrera de
-            <strong className="purple"> Ingeniería Eléctrica.</strong>
+            {t("about_text_8")}{" "}
+            <strong className="purple">{t("about_text_9")}</strong>{" "}
+            {t("about_text_10")}{" "}
+            <strong className="purple">{t("about_text_11")}</strong>{" "}
           </p>
           <p>
-            Además de mi formación formal, he buscado de manera autodidacta
-            expandir mis conocimientos a través de plataformas educativas como
-            <strong className="purple">
-              {" "}
-              Udemy, FundAula y Educacion IT.{" "}
-            </strong>
+            {t("about_text_12")}{" "}
+            <strong className="purple"> {t("about_text_13")} </strong>
           </p>
           <p>
-            Adicionalmente, he trabajado en
-            <strong className="purple"> Proyectos Personales,</strong> que me
-            han permitido aplicar y fortalecer mis habilidades en programación
-            web.
+            {t("about_text_14")}{" "}
+            <strong className="purple">{t("about_text_15")}</strong>{" "}
+            {t("about_text_16")}
             <p />
           </p>
         </blockquote>
