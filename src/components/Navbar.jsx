@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.webp";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { CgChevronDown, CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -88,6 +88,15 @@ function NavBar() {
                 </Nav.Link>
               </Nav.Item>
             ))}
+            <Nav.Item className="fork-btn">
+              <Button
+                
+                target="_blank"
+                className="fork-btn-inner"
+              > <CgChevronDown/>
+              {/* <img src="./Flags/es.svg" alt="es"/> */}
+              </Button>
+            </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/eduardoe92"
