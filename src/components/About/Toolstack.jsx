@@ -45,7 +45,7 @@ function Toolstack() {
         {tools.map((tool, index) => (
           <Col key={index} xs={4} md={2} className="tech-icons">
             {tool.icon}
-            <div className="text-muted fs-6">{tool.name}</div>
+            <div className="text-white fs-6">{tool.name}</div>
           </Col>
         ))}
       </Row>

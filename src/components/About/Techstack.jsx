@@ -39,7 +39,7 @@ function Techstack() {
         {stack.map((stack, index) => (
           <Col key={index} xs={4} md={2} className="tech-icons">
             {stack.icon}
-            <div className="text-muted fs-6">{stack.name}</div>
+            <div className="text-white fs-6">{stack.name}</div>
           </Col>
         ))}
       </Row>
