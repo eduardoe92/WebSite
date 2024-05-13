@@ -3,18 +3,17 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.webp";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineUser,
   AiOutlineMessage,
 } from "react-icons/ai";
+
 import { t } from "i18next";
 import { BsLaptop } from "react-icons/bs";
-// import LanguageSelector from "./LanguageSelector";
+import LanguageSelector from "./LanguageSelector";
+import ButtonGithub from "./ButtonGithub";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -31,26 +30,10 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   const navItems = [
-    {
-      to: "/",
-      icon: <AiOutlineHome />,
-      text: t("home"),
-    },
-    {
-      to: "/about",
-      icon: <AiOutlineUser />,
-      text: t("aboutMe"),
-    },
-    {
-      to: "/project",
-      icon: <BsLaptop />,
-      text: t("projects"),
-    },
-    {
-      to: "/contact",
-      icon: <AiOutlineMessage />,
-      text: t("contact"),
-    },
+    { to: t("link_home"), icon: <AiOutlineHome />, text: t("home") },
+    { to: t("link_about"), icon: <AiOutlineUser />, text: t("about_me") },
+    { to: t("link_projects"), icon: <BsLaptop />, text: t("projects") },
+    { to: t("link_contact"), icon: <AiOutlineMessage />, text: t("contact") },
   ];
 
   return (
@@ -88,23 +71,8 @@ function NavBar() {
                 </Nav.Link>
               </Nav.Item>
             ))}
-
-            <Nav.Item className="fork-btn">
-              <Button target="_blank" className="fork-btn-inner">
-                {/* <LanguageSelector /> */}
-              </Button>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/eduardoe92"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
+            <LanguageSelector/>
+            <ButtonGithub/>
           </Nav>
         </Navbar.Collapse>
       </Container>

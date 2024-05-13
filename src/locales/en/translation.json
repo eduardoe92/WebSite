@@ -1,6 +1,11 @@
 {
+  "link_home": "/en/",
+  "link_about": "/en/about",
+  "link_projects": "/en/projects",
+  "link_contact": "/en/contact",
+
   "home": "home",
-  "aboutMe": "About me",
+  "about_me": "About me",
   "projects": "Projects",
   "contact": "Contact",
 
@@ -89,23 +94,24 @@
   "title_github_1": "History",
   "title_github_2": "Github",
 
+  "title_project_section_1": "My",
+  "title_project_section_2": "Projects",
 
-  "title_project_session_1": "My",
-  "title_project_session_2": "Projects",
+  "subtitle_project_section_1": "Here I'll show you some",
+  "subtitle_project_section_2": "projects",
+  "subtitle_project_section_3": "the ones I've been working on.",
 
-  "subtitle_project_sesion_1": "Here I'll show you some",
-  "subtitle_project_session_2": "projects",
-  "subtitle_project_sesion_3": "the ones I've been working on.",
+  "projects_section": {
+    "description_project_1": "As a final project for the Eidos Global course, I designed a personal presentation page using HTML, CSS and JavaScript. The implementation of an interactive interface was essential to improve the user experience, guaranteeing its adaptability to different devices through a responsive design.",
+    "description_project_2": "The Makisan-Tech Landing Page, developed with HTML, CSS and JavaScript, was the result of close collaboration with a team of front-end developers. Our main objective was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
+    "description_project_3": "The Rick and Morty Project, developed with React for the interface and using the series' API to provide users with detailed information about each character. This application is implemented in Vercel, ensuring an interactive, fluid, pleasant platform and trustworthy to fans to explore the universe of the series.",
+    "description_project_4": "The Digital Nao Project consisted of the creation of a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. HTML, CSS and Bootstrap technologies were exclusively used for its development, guaranteeing an elegant and functional that highlights the skills and services offered by the graduate.",
+    "description_project_5": "The Pokedex Project, developed with React, leverages the Pokemon API to give users access to the specifications of their favorite Pokemon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for Pokémon enthusiasts and developers alike.",
+    "description_project_6": "The official ConsoleLog.Ar brand page is currently under development by a team of specialized programmers. Using fundamental technologies such as HTML, CSS and JavaScript, we are committed to creating a web platform that reflects the essence and the values ​​of our brand, providing an optimal digital experience for our users.",
+    "description_project_7": "ShopMax, an e-commerce in development, is currently in the implementation phase among a team of programmers. We are using technologies such as React for the user interface, Java for logic and MySQL for data management, Our goal is to offer a high-quality, efficient online shopping experience that meets the highest standards of today's digital market."
+  },
 
-  "description_project_1": "As a final project for the Eidos Global course, I designed a personal presentation page using HTML, CSS and JavaScript. The implementation of an interactive interface was essential to improve the user experience, guaranteeing its adaptability to different devices through a responsive design.",
-  "description_project_2": "The Makisan-Tech Landing Page, developed with HTML, CSS and JavaScript, was the result of close collaboration with a team of front-end developers. Our main objective was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
-  "description_project_3":"The Rick and Morty Project, developed with React for the interface and using the series' API to provide users with detailed information about each character. This application is implemented in Vercel, ensuring an interactive, fluid, pleasant platform and trustworthy to fans to explore the universe of the series.",
-  "description_project_4":"The Digital Nao Project consisted of the creation of a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. HTML, CSS and Bootstrap technologies were exclusively used for its development, guaranteeing an elegant and functional that highlights the skills and services offered by the graduate.",
-  "description_project_5":"The Pokedex Project, developed with React, leverages the Pokemon API to give users access to the specifications of their favorite Pokemon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for Pokémon enthusiasts and developers alike.",
-  "description_project_6":"The official ConsoleLog.Ar brand page is currently under development by a team of specialized programmers. Using fundamental technologies such as HTML, CSS and JavaScript, we are committed to creating a web platform that reflects the essence and the values ​​of our brand, providing an optimal digital experience for our users.",
-  "description_project_7":"ShopMax, an e-commerce in development, is currently in the implementation phase among a team of programmers. We are using technologies such as React for the user interface, Java for logic and MySQL for data management, Our goal is to offer a high-quality, efficient online shopping experience that meets the highest standards of today's digital market.",
-
-  "Deployer":"Deploy",
+  "Deployer": "Deploy",
 
   "contact_title_1": "Thank you for wanting",
   "contact_title_2": "Contact me",
@@ -128,5 +134,4 @@
   "contact_icon_subtitle_1": "Do not hesitate to",
   "contact_icon_subtitle_2": "Contact you",
   "contact_icon_subtitle_3": "With me"
-
 }

@@ -6,6 +6,9 @@ import { BsGithub } from "react-icons/bs";
 import { t } from "i18next";
 
 function ProjectCards(props) {
+
+  console.log("Descripción del proyecto:", props.description);
+
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -39,4 +42,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;

@@ -9,14 +9,14 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/Contact/Contact";
-
+import { t } from "i18next";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -36,11 +36,11 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path={t("link_home")} element={<Home />} />
+          <Route path={t("link_about")} element={<About />} />
+          <Route path={t("link_projects")} element={<Projects />} />
+          <Route path={t("link_contact")} element={<Contact />} />
+          <Route path="*" element={<Navigate to={t("link_home")} />} />
         </Routes>
         <Footer />
       </div>

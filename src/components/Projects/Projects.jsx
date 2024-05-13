@@ -13,13 +13,13 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading text-uppercase">
-          {t("title_project_sesion_1")}{" "}
-          <strong className="purple">{t("title_project_sesion_2")}</strong>
+          {t("title_project_section_1")}{" "}
+          <strong className="purple">{t("title_project_section_2")}</strong>
         </h1>
         <p style={{ color: "white" }}>
-          {t("subtitle_project_sesion_1")}{" "}
-          <strong className="purple">{t("subtitle_project_sesion_2")}</strong>{" "}
-          {t("subtitle_project_sesion_3")}
+          {t("subtitle_project_section_1")}{" "}
+          <strong className="purple">{t("subtitle_project_section_2")}</strong>{" "}
+          {t("subtitle_project_section_3")}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {ProjectList.map((project, index) => (
