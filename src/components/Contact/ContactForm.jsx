@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -13,6 +13,10 @@ function ContactForm() {
   const [isSending, setIsSending] = useState(false);
   const [buttonText, setButtonText] = useState(t("form.form_pre_send"));
 
+  const nombreRef = useRef(null);
+  const correoRef = useRef(null);
+  const mensajeRef = useRef(null);
+
   const isValidEmail = (email) => {
     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
     return emailRegex.test(email);
@@ -23,17 +27,11 @@ function ContactForm() {
     setIsSending(true);
     setButtonText(t("form.form_sending"));
 
-    const nombre = e.target.elements.nombre.value;
-    const correo = e.target.elements.correo.value;
-    const mensaje = e.target.elements.mensaje.value;
+    const nombre = nombreRef.current.value;
+    const correo = correoRef.current.value;
+    const mensaje = mensajeRef.current.value;
 
-    if (
-      !nombre ||
-      !correo ||
-      !mensaje ||
-      !isValidEmail(correo) ||
-      mensaje.length > 1500
-    ) {
+    if (!nombre || !correo || !mensaje || !isValidEmail(correo) || mensaje.length > 1500) {
       setErrorMessage("Por favor, complete todos los campos correctamente.");
       setIsSending(false);
       setButtonText(t("form.form_pre_send"));
