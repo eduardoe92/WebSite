@@ -1,8 +1,27 @@
 require("dotenv").config();
-
 const nodemailer = require("nodemailer");
 
-module.exports = async (req, res) => {
+const allowCors = (fn) => async (req, res) => {
+  res.setHeader("Access-Control-Allow-Credentials", true);
+  res.setHeader("Access-Control-Allow-Origin", req.headers.origin);
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET,OPTIONS,PATCH,DELETE,POST,PUT"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+
+  if (req.method === "OPTIONS") {
+    res.status(200).end();
+    return;
+  }
+
+  return await fn(req, res);
+};
+
+const sendMail = async (req, res) => {
   const { nombre, correo, mensaje } = req.body;
 
   const transporter = nodemailer.createTransport({
@@ -29,3 +48,5 @@ module.exports = async (req, res) => {
     res.status(500).json({ error: "Hubo un problema al enviar el mensaje." });
   }
 };
+
+module.exports = allowCors(sendMail);

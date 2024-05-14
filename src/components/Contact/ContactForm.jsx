@@ -102,7 +102,6 @@ function ContactForm() {
                 ref={mensajeRef}
               />
             </Form.Group>
-            <br />
             {errorMessage && <p className="text-danger">{errorMessage}</p>}
             {successMessage && <p className="text-success">{successMessage}</p>}
             <Button type="submit" disabled={isSending}>
