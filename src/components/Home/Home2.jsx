@@ -8,7 +8,7 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <Col md={8} className="home-about-description">
             <h1 className="text-uppercase purple" style={{ fontSize: "2.6em" }}>
               <strong className="purple"> {t("home_title_1")} </strong>
@@ -17,17 +17,13 @@ function Home2() {
               className="home-about-body"
               style={{ textAlign: "justify" }}
             >
+              <p>{t("home_text_1")}</p>
               <p>
-                {t("home_text_1")}
+                <strong className="purple">{t("home_text_2")}</strong>
               </p>
+              <p>{t("home_text_3")}</p>
               <p>
-              <strong className="purple">{t("home_text_2")}</strong>
-              </p>
-              <p>
-              {t("home_text_3")}
-              </p>
-              <p>
-              <strong className="purple">{t("home_text_4")}</strong>
+                <strong className="purple">{t("home_text_4")}</strong>
               </p>
             </blockquote>
           </Col>
