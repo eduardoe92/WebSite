@@ -116,6 +116,18 @@
   "contact_text_4": "I look forward to hearing from you soon!",
   "contact_text_5": "Best regards.",
 
+  "form":{
+    "form_name":"Name",
+    "form_email":"Mail",
+    "form_subject":"Message",
+    "form_message":"Write your message here",
+
+    "alert_send":"Message sent succesfully.",
+    "alert_fail":"There was a problem sending the message.",
+
+    "form_send":"Send",
+    "form_sending":"Sending..."
+  },
 
   "contact_icon_title_1": "Find Me on My Social Networks",
 

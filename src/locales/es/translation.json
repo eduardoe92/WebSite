@@ -117,6 +117,19 @@
   "contact_text_4": "¡Espero tener noticias tuyas pronto!",
   "contact_text_5": "Saludos Cordiales.",
 
+  "form":{
+    "form_name":"Nombre",
+    "form_email":"Correo",
+    "form_subject":"Mensaje",
+    "form_message":"Escribe tu mensaje acá",
+
+    "alert_send":"Mensaje enviado con éxito",
+    "alert_fail":"Hubo un problema al enviar el mensaje.",
+
+    "form_send":"Enviar",
+    "form_sending":"Enviando..."
+  },
+
   "contact_icon_title_1": "Encuéntrame en mis redes sociales",
 
   "contact_icon_subtitle_1": "No dudes en contactarte conmigo"
