@@ -8,8 +8,7 @@ function SocialNetworks() {
     <Row>
       <Col md={12} className="home-about-social text-uppercase">
         <h1>
-          {t("contact_icon_title_1")}{" "}
-          <strong className="purple">{t("contact_icon_title_2")}</strong>
+          <strong className="purple">{t("contact_icon_title_1")}</strong>
         </h1>
         <ul className="home-about-social-links">
           {SocialIcon.map((link, index) => (
@@ -27,9 +26,7 @@ function SocialNetworks() {
           ))}
         </ul>
         <p>
-          {t("contact_icon_subtitle_1")}{" "}
-          <strong className="purple">{t("contact_icon_subtitle_2")}</strong>{" "}
-          {t("contact_icon_subtitle_3")}
+          {t("contact_icon_subtitle_1")}
         </p>
       </Col>
     </Row>

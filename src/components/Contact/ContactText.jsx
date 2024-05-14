@@ -12,21 +12,17 @@ function ContactText() {
             >
             <p>
                 {t("contact_text_1")}
-                <strong className="purple"> {t("contact_text_2")}</strong>{" "}
-                {t("contact_text_3")}{" "}
+            </p>
+            <p>
+                <strong className="purple"> {t("contact_text_2")}</strong>
+            </p>
+            <p>{t("contact_text_3")}</p>
+            <p>
                 <strong className="purple">{t("contact_text_4")}</strong>
             </p>
             <p>
-                {t("contact_text_5")}{" "}
-                <strong className="purple">{t("contact_text_6")}</strong>{" "}
-                {t("contact_text_7")}
+                {t("contact_text_5")}
             </p>
-            <p>
-                {t("contact_text_8")}{" "}
-                <strong className="purple">{t("contact_text_9")}</strong>{" "}
-                {t("contact_text_10")}
-            </p>
-            <p>{t("contact_text_11")}</p>
             </blockquote>
         </Card.Body>
         </Card>

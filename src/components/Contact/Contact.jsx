@@ -25,8 +25,7 @@ function Contact() {
                 className="text-uppercase"
                 style={{ fontSize: "2.1em", paddingBottom: "20px" }}
             >
-                {t("contact_title_1")}{" "}
-                <strong className="purple">{t("contact_title_2")}</strong>
+                <strong className="purple">{t("contact_title_1")}</strong>
             </h1>
             <ContactText />
             </Col>

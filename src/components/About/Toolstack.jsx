@@ -38,8 +38,7 @@ function Toolstack() {
   return (
     <>
       <h1 className="project-heading text-uppercase">
-        <strong className="purple">{t("title_tool_stack_1")}</strong>{" "}
-        {t("title_tool_stack_2")}
+        <strong className="purple">{t("title_tool_stack_1")}</strong>
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         {tools.map((tool, index) => (

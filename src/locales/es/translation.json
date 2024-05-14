@@ -22,49 +22,24 @@
     "Apasionado por la Tecnología"
   ],
 
-  "home_title_1": "Permíteme",
-  "home_title_2": "Presentarme",
+  "home_title_1": "Permíteme Presentarme",
 
-  "home_text_1": "Soy un apasionado",
-  "home_text_2": "Programador Web",
-  "home_text_3": "en constante formación.",
-  "home_text_4": "Actualmente resido en",
-  "home_text_5": "Buenos Aires, Argentina,",
-  "home_text_6": "aunque soy originario de",
-  "home_text_7": "Mérida, Venezuela.",
-  "home_text_8": "A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:",
-  "home_text_9": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion y Miro.",
-  "home_text_10": "Siento una profunda pasión por la tecnología y el desarrollo web, y estoy comprometido a seguir aprendiendo cada día para convertirme en un",
-  "home_text_11": "Profesional de Excelencia",
-  "home_text_12": "en el",
-  "home_text_13": "Mundo IT.",
-  "home_text_14": "Estoy dispuesto a asumir",
-  "home_text_15": "Nuevos Desafíos",
-  "home_text_16": "y formar parte de equipos innovadores en el sector.",
+  "home_text_1": "Soy un apasionado Programador Web en constante formación. Actualmente resido en Buenos Aires, Argentina, aunque soy originario de Mérida, Venezuela. A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:",
+  "home_text_2": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion y Miro.",
+  "home_text_3": "Siento una profunda pasión por la tecnología y el desarrollo web, y estoy comprometido a seguir aprendiendo cada día para convertirme en un Profesional de Excelencia en el Mundo IT.",
+  "home_text_4": "Estoy dispuesto a asumir Nuevos Desafíos y formar parte de equipos innovadores en el sector.",
 
-  "about_tile_1": "Información adicional",
-  "about_tile_2": "acerca de mí",
+  "about_tile_1": "Información adicional acerca de mí",
 
-  "about_text_1": "He participado en diversos programas de formación que han enriquecido mi conjunto de habilidades como programador. Estos programas incluyen:",
-  "about_text_2": "Programador Full — Stack",
-  "about_text_3": "en 'Egg Cooperation y Argentina Programa'.",
-  "about_text_4": "Desarrollador Front — End",
-  "about_text_5": " en 'Eidos Global y Accenture' y actualmente el programa",
-  "about_text_6": "Full Stack — Developer Core",
-  "about_text_7": "en 'Digital Nao x Tecmilenio'.",
-  "about_text_8": "Anteriormente formé parte de la",
-  "about_text_9": "Universidad de los Andes,",
-  "about_text_10": "en la ciudad de Mérida — Venezuela, en donde estudié la carrera de",
-  "about_text_11": "Ingeniería Eléctrica.",
-  "about_text_12": "Además de mi formación formal, he buscado de manera autodidacta expandir mis conocimientos a través de plataformas educativas como",
-  "about_text_13": "Udemy, FundAula y Educacion IT.",
-  "about_text_14": "Adicionalmente, he trabajado en",
-  "about_text_15": "Proyectos Personales,",
-  "about_text_16": "que me han permitido aplicar y fortalecer mis habilidades en programación web.",
+  "about_text_1": "He participado en diversos programas de formación que han enriquecido mi conjunto de habilidades como programador. Estos programas son: ",
+  "about_text_2": "Full Stack — Developer Core en 'Digital Nao x Tecmilenio'.",
+  "about_text_3": "Programador Full — Stack en 'Egg Cooperation y Argentina Programa'.",
+  "about_text_4": "Desarrollador Front — End en 'Eidos Global y Accenture'.",
+  "about_text_5": "Anteriormente formé parte de la Universidad de los Andes, en la ciudad de Mérida — Venezuela, en donde estudié la carrera de Ingeniería Eléctrica.",
+  "about_text_6": "Además de mi formación formal, he buscado de manera autodidacta expandir mis conocimientos a través de plataformas educativas como Udemy, FundAula y Educacion IT.",
+  "about_text_7": "Adicionalmente, he trabajado en Proyectos Personales que me han permitido aplicar y fortalecer mis habilidades en programación web.",
 
-  "soft_skills_title_1": "Poseo",
-  "soft_skills_title_2": "Habilidades",
-  "soft_skills_title_3": "en:",
+  "soft_skills_title_1": "Poseo Habilidades en:",
 
   "text_skills_1": "Pensamiento Lógico y Analítico",
   "text_skills_2": "Comunicación Efectiva",
@@ -74,9 +49,7 @@
   "text_skills_6": "Adaptabilidad",
   "text_skills_7": "Creatividad",
 
-  "hobbies_title_1": "Mis",
-  "hobbies_title_2": "Hobbies",
-  "hobbies_title_3": "son:",
+  "hobbies_title_1": "Mis Hobbies son:",
 
   "text_hobbie_1": "Me encanta Viajar",
   "text_hobbie_2": "La Fotografía",
@@ -85,21 +58,15 @@
   "text_hobbie_5": "El Fútbol",
   "text_hobbie_6": "El Rock",
 
-  "title_tech_stack_1": "Conjunto de",
-  "title_tech_stack_2": "Habilidades Profesionales",
+  "title_tech_stack_1": "Conjunto de Habilidades Profesionales",
 
-  "title_tool_stack_1": "Herramientas",
-  "title_tool_stack_2": "que utilizo",
+  "title_tool_stack_1": "Herramientas que utilizo",
 
-  "title_github_1": "Historial",
-  "title_github_2": "Github",
+  "title_github_1": "Historial de Github",
 
-  "title_project_section_1": "Mis",
-  "title_project_section_2": "Proyectos",
+  "title_project_section_1": "Mis Proyectos",
 
-  "subtitle_project_section_1": "A continuación te enseño algunos",
-  "subtitle_project_section_2": "proyectos",
-  "subtitle_project_section_3": "en los que he estado trabajando.",
+  "subtitle_project_section_1": "A continuación te enseño algunos proyectos en los que he estado trabajando.",
 
   "projects_section": {
     "description_project_1": "Como proyecto final para el curso Eidos Global, diseñé una página de presentación personal utilizando HTML, CSS y JavaScript. La implementación de una interfaz interactiva fue fundamental para mejorar la experiencia del usuario, garantizando su adaptabilidad a diferentes dispositivos mediante un diseño responsivo.",
@@ -113,25 +80,15 @@
 
   "Deployer": "Desplegar",
 
-  "contact_title_1": "Gracias por querer",
-  "contact_title_2": "Comunicarte conmigo",
+  "contact_title_1": "Gracias por querer comunicarte conmigo",
 
-  "contact_text_1": "Estoy a tu disposición para abordar cualquier",
-  "contact_text_2": "pregunta o inquietud",
-  "contact_text_3": "que puedas tener. Si deseas ponerte en contacto conmigo, puedes contactarme através de mis",
-  "contact_text_4": "redes sociales.",
-  "contact_text_5": "Por favor, ten en cuenta que mi disponibilidad puede variar, pero haré todo lo posible por responder a tu",
-  "contact_text_6": "mensaje",
-  "contact_text_7": "en el menor tiempo posible.",
-  "contact_text_8": "¡Espero tener",
-  "contact_text_9": "noticias",
-  "contact_text_10": "tuyas pronto!",
-  "contact_text_11": "Saludos Cordiales.",
+  "contact_text_1": "Estoy a tu disposición para abordar cualquier pregunta o inquietud que puedas tener.",
+  "contact_text_2": "Si deseas ponerte en contacto conmigo, puedes contactarme através de mis redes sociales.",
+  "contact_text_3": "Por favor, ten en cuenta que mi disponibilidad puede variar, pero haré todo lo posible por responder a tu mensaje en el menor tiempo posible.",
+  "contact_text_4": "¡Espero tener noticias tuyas pronto!",
+  "contact_text_5": "Saludos Cordiales.",
 
-  "contact_icon_title_1": "Encuéntrame en mis",
-  "contact_icon_title_2": "Redes sociales",
+  "contact_icon_title_1": "Encuéntrame en mis redes sociales",
 
-  "contact_icon_subtitle_1": "No dudes en",
-  "contact_icon_subtitle_2": "Contactarte",
-  "contact_icon_subtitle_3": "Conmigo"
+  "contact_icon_subtitle_1": "No dudes en contactarte conmigo"
 }

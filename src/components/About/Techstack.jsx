@@ -32,8 +32,7 @@ function Techstack() {
   return (
     <>
       <h1 className="project-heading text-uppercase">
-        {t("title_tech_stack_1")}{" "}
-        <strong className="purple">{t("title_tech_stack_2")}</strong>
+        <strong className="purple">{t("title_tech_stack_1")}</strong>
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         {stack.map((stack, index) => (

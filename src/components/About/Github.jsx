@@ -10,8 +10,7 @@ function Github() {
         className="project-heading text-uppercase"
         style={{ paddingBottom: "20px" }}
       >
-        {t("title_github_1")}{" "}
-        <strong className="purple">{t("title_github_2")}</strong>
+        <strong className="purple">{t("title_github_1")}</strong>
       </h1>
       <GitHubCalendar
         username="eduardoe92"

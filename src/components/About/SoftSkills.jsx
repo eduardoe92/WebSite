@@ -28,10 +28,8 @@ function SoftSkills() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
-            <ImPointRight />
-            {t("soft_skills_title_1")}{" "}
-            <strong className="purple">{t("soft_skills_title_2")}</strong>{" "}
-            {t("soft_skills_title_3")}
+            <ImPointRight />{" "}
+            <strong className="purple">{t("soft_skills_title_1")}</strong>
           </p>
           <ul>
             {softSkills.map((hobby, index) => (

@@ -2,7 +2,14 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { t } from "i18next";
 import { ImPointRight } from "react-icons/im";
-import { FaPlane, FaCamera, FaCar, FaBaseballBall, FaFutbol, FaHeadphones } from "react-icons/fa";
+import {
+  FaPlane,
+  FaCamera,
+  FaCar,
+  FaBaseballBall,
+  FaFutbol,
+  FaHeadphones,
+} from "react-icons/fa";
 
 function Hobbies() {
   const hobbies = [
@@ -11,7 +18,7 @@ function Hobbies() {
     { icon: <FaCar />, text: t("text_hobbie_3") },
     { icon: <FaBaseballBall />, text: t("text_hobbie_4") },
     { icon: <FaFutbol />, text: t("text_hobbie_5") },
-    { icon: <FaHeadphones />, text: t("text_hobbie_6") }
+    { icon: <FaHeadphones />, text: t("text_hobbie_6") },
   ];
 
   return (
@@ -19,9 +26,8 @@ function Hobbies() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
-            <ImPointRight /> {t("hobbies_title_1")}{" "}
-            <strong className="purple">{t("hobbies_title_2")}</strong>{" "}
-            {t("hobbies_title_3")}
+            <ImPointRight />{" "}
+            <strong className="purple">{t("hobbies_title_1")}</strong>
           </p>
           <ul>
             {hobbies.map((hobby, index) => (
