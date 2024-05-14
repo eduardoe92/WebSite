@@ -39,7 +39,7 @@ function ContactForm() {
     }
 
     try {
-      const response = await axios.post("/api/send-mail", {
+      const response = await axios.post("https://eduardoeliaschacon-portfolio.vercel.app/api/send-mail", {
         nombre,
         correo,
         mensaje,
@@ -60,8 +60,7 @@ function ContactForm() {
   };
 
   return (
-    <Card className="project-card-view form-input mx-auto"
-    style={{ marginBottom: "50px" }} >
+    <Card className="project-card-view form-input mx-auto" style={{ marginBottom: "50px" }}>
       <Row>
         <Card.Body>
           <Form onSubmit={handleSubmit}>
@@ -74,6 +73,7 @@ function ContactForm() {
                 className="project-card-view-form form-user text-white"
                 name={t("form.form_name")}
                 placeholder={t("form.form_name")}
+                ref={nombreRef}
               />
             </Form.Group>
             <Form.Group className="d-flex align-items-center justify-content-between flex-column flex-md-row">
@@ -85,6 +85,7 @@ function ContactForm() {
                 className="project-card-view-form form-user text-white"
                 name={t("form.form_email")}
                 placeholder={t("form.form_email")}
+                ref={correoRef}
               />
             </Form.Group>
             <Form.Group className="d-flex align-items-center justify-content-between flex-column flex-md-row">
@@ -98,6 +99,7 @@ function ContactForm() {
                 className="project-card-view-form form-user text-white"
                 name={t("form.form_subject")}
                 placeholder={t("form.form_message")}
+                ref={mensajeRef}
               />
             </Form.Group>
             <br />
