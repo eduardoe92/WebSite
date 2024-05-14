@@ -125,8 +125,10 @@
     "alert_send": "Message sent succesfully.",
     "alert_fail": "There was a problem sending the message.",
 
-    "form_send": "Send",
-    "form_sending": "Sending..."
+    "form_pre_send": "Send",
+    "form_sending": "Sending...",
+    "form_error":"Error sending",
+    "form_send": "Sent"
   },
 
   "contact_icon_title_1": "Find Me on My Social Networks",

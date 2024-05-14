@@ -126,8 +126,10 @@
     "alert_send":"Mensaje enviado con éxito",
     "alert_fail":"Hubo un problema al enviar el mensaje.",
 
-    "form_send":"Enviar",
-    "form_sending":"Enviando..."
+    "form_pre_send":"Enviar",
+    "form_sending":"Enviando...",
+    "form_error":"Error al enviar",
+    "form_send": "Enviado"
   },
 
   "contact_icon_title_1": "Encuéntrame en mis redes sociales",
