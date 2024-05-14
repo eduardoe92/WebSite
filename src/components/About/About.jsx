@@ -14,7 +14,10 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row
+          style={{ justifyContent: "center", padding: "10px" }}
+          className="align-items-center"
+        >
           <Col
             md={7}
             style={{
@@ -24,19 +27,25 @@ function About() {
             }}
           >
             <Aboutcard />
-            <SoftSkills />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "30px" }}
+            style={{ paddingTop: "30px", paddingBottom: "30px" }}
             className="about-img"
           >
             <img
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "380px", marginBottom: "10%" }}
+              style={{ maxHeight: "450px", marginBottom: "10%" }}
             />
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
+            <SoftSkills />
+          </Col>
+          <Col md={6} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
             <Hobbies />
           </Col>
         </Row>
