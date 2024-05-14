@@ -8,7 +8,8 @@ import CarolineSeda from "../../Assets/Projects/CarolineSeda.webp";
 import { t } from "i18next";
 
 
-const ProjectList = [
+const ProjectList = () => {
+  return [
   {
     imgPath: ShopMax,
     title: "ShopMax",
@@ -59,5 +60,5 @@ const ProjectList = [
     demoLink: "https://eduardoe92.github.io/ProyectoFinal/",
   },
 ];
-
+}
 export default ProjectList;

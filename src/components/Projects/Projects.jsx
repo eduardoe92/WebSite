@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ProjectList from "./ProjectList";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
+  const { t } = useTranslation();
   const isDesktop = window.innerWidth >= 768 && window.innerWidth <= 1223;
+  const [projectListData, setProjectListData] = useState([]);
+
+  useEffect(() => {
+    // Load project list data and update state
+    const fetchData = async () => {
+      const data = await ProjectList(); // Assuming ProjectList is a function that fetches project data
+      setProjectListData(data);
+    };
+    fetchData();
+  }, []);
 
   return (
     <Container fluid className="project-section">
@@ -17,7 +28,7 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>{t("subtitle_project_section_1")}</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {ProjectList.map((project, index) => (
+          {projectListData.map((project, index) => (
             <Col key={index} md={isDesktop ? 6 : 4} className="project-card">
               <ProjectCard
                 imgPath={project.imgPath}

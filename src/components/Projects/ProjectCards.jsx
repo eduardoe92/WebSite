@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import { t } from "i18next";
 import "i18next";
+import { useTranslation } from "react-i18next";
 
 function ProjectCards(props) {
+
+  const { t } = useTranslation();
+  const [description, setDescription] = useState("");
+
+  useEffect(() => {
+    setDescription(t(props.description));
+  }, [props.description, t]);
 
   console.log("Descripción del proyecto:", props.description);
 
@@ -20,7 +27,7 @@ function ProjectCards(props) {
           <strong className="purple">—</strong>
         </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          {description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
