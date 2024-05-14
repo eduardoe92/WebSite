@@ -171,15 +171,9 @@ button:focus {
   padding: 0.8rem 1rem !important;
 }
 
-@media (max-width: 767px) {
-  .nav-link {
-    padding: 0.7rem 1rem !important;
-  }
-}
-
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .navbar-nav .nav-item a {
@@ -205,6 +199,12 @@ button:focus {
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+
+@media (min-width:450px) and (max-width:992px) {
+  .logo {
+    margin-bottom: 20px;
+  }
 }
 
 /* --------- */

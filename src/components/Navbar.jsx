@@ -9,6 +9,7 @@ import {
   AiOutlineUser,
   AiOutlineMessage,
 } from "react-icons/ai";
+
 import { t } from "i18next";
 import { BsLaptop } from "react-icons/bs";
 import ButtonGithub from "./ButtonGithub";
@@ -43,8 +44,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/" className="">
+          <img src={logo} className="img logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -66,7 +67,8 @@ function NavBar() {
                   onClick={() => updateExpanded(false)}
                   style={{ marginBottom: "2px" }}
                 >
-                  {item.icon} {item.text}
+                  {item.icon}{" "}
+                  {item.text}
                 </Nav.Link>
               </Nav.Item>
             ))}
