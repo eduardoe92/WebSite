@@ -27,7 +27,11 @@ function Home2() {
               </p>
             </blockquote>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col
+            md={4}
+            style={{ paddingTop: "30px", paddingBottom: "60px" }}
+            className="myAvtar"
+          >
             <img
               src={myImg}
               className="img-fluid"
@@ -35,6 +39,8 @@ function Home2() {
               style={{
                 borderRadius: "45%",
                 boxShadow: "10px 10px 20px rgb(112, 12, 134)",
+                maxHeight: "320px",
+                marginBottom: "10%",
               }}
             />
           </Col>

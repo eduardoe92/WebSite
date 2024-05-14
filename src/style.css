@@ -314,7 +314,7 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   align-items: center;
-  padding-top: 10em !important;
+  padding-top: 15em !important;
 }
 
 @media (max-width: 767px) {
@@ -465,11 +465,13 @@ button:focus {
   height: auto !important;
 }
 
-@media (min-width: 1025px) {.project-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
-}}
+@media (min-width: 1025px) {
+  .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  }
+}
 
 .project-card-view-form {
   box-shadow: 0 4px 5px 3px rgb(112, 12, 134) !important;
