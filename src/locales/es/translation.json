@@ -1,8 +1,9 @@
 {
   "link_home": "/",
-  "link_about": "/acercademi",
+  "link_about": "/acerca-de",
   "link_projects": "/proyectos",
   "link_contact": "/contacto",
+  "link_navigate": "/",
 
   "home": "Inicio",
   "about_me": "Acerca de",

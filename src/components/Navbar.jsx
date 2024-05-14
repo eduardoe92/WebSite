@@ -9,11 +9,10 @@ import {
   AiOutlineUser,
   AiOutlineMessage,
 } from "react-icons/ai";
-
 import { t } from "i18next";
 import { BsLaptop } from "react-icons/bs";
-import LanguageSelector from "./LanguageSelector";
 import ButtonGithub from "./ButtonGithub";
+import LanguageSelector from "./LanguageSelector";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

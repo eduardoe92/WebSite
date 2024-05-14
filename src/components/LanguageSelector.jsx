@@ -1,59 +1,60 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Nav } from "react-bootstrap";
-import { CgChevronDown, CgChevronUp } from "react-icons/cg";
 import usFlag from "../Assets/Flags/us.svg";
 import esFlag from "../Assets/Flags/es.svg";
 import { useTranslation } from "react-i18next";
 
 function LanguageSelector() {
   const { i18n } = useTranslation();
-  const [showDropdown, setShowDropdown] = useState(false);
-  const dropdownRef = useRef(null);
+  const [language, setLanguage] = useState(i18n.language || "es");
 
   useEffect(() => {
-    function handleClickOutside(event) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setShowDropdown(false);
-      }
-    }
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [dropdownRef]);
-
-  const toggleDropdown = () => {
-    setShowDropdown(!showDropdown);
-  };
-
-  const changeLanguage = (language) => {
     i18n.changeLanguage(language);
-    setShowDropdown(false);
-  };
+  }, [language, i18n]);
 
-  const currentLanguage = i18n.language === "es" ? esFlag : usFlag;
+  const toggleLanguage = () => {
+    const newLanguage = language === "es" ? "en" : "es";
+    setLanguage(newLanguage);
+  };
 
   return (
-    <Nav.Item className="fork-btn" ref={dropdownRef}>
-      <Button onClick={toggleDropdown} className="fork-btn-inner">
+    // <Nav.Item className="fork-btn">
+    //   <Button onClick={toggleLanguage} className="language-btn fork-btn-inner">
+    //     <img
+    //       src={esFlag}
+    //       alt="es-flag"
+    //       style={{
+    //         width: "23px",
+    //         height: "23px",
+    //         borderRadius: "100%",
+    //         marginRight: "5px",
+    //         opacity: language === "es" ? 1 : 0.5
+    //       }}
+    //     />
+    //     <img
+    //       src={usFlag}
+    //       alt="us-flag"
+    //       style={{
+    //         width: "23px",
+    //         height: "23px",
+    //         borderRadius: "100%",
+    //         opacity: language === "en" ? 1 : 0.5
+    //       }}
+    //     />
+    //   </Button>
+    // </Nav.Item>
+    <Nav.Item className="fork-btn">
+      <Button onClick={toggleLanguage} className="language-btn fork-btn-inner">
         <img
-          src={currentLanguage}
-          alt="current-language-flag"
-          style={{ width: "23px", height: "23px", borderRadius: "100%"}}
-        />{" "}
-        {showDropdown ? <CgChevronUp /> : <CgChevronDown />}
+          src={i18n.language === "es" ? usFlag : esFlag}
+          alt={i18n.language === "es" ? "US Flag" : "ES Flag"}
+          style={{
+            width: "23px",
+            height: "23px",
+            borderRadius: "100%",
+          }}
+        />
       </Button>
-      {showDropdown && (
-        <ul className="dropdown-menu">
-          <li onClick={() => changeLanguage("es")}>
-            <img src={esFlag} alt="es-flag" />
-          </li>
-          <li onClick={() => changeLanguage("us")}>
-            <img src={usFlag} alt="us-flag" />
-          </li>
-        </ul>
-      )}
     </Nav.Item>
   );
 }

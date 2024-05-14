@@ -1,8 +1,9 @@
 {
-  "link_home": "/en/",
-  "link_about": "/en/about",
-  "link_projects": "/en/projects",
-  "link_contact": "/en/contact",
+  "link_home": "/home",
+  "link_about": "/about",
+  "link_projects": "/projects",
+  "link_contact": "/contact",
+  "link_navigate": "/home",
 
   "home": "Home",
   "about_me": "About me",
