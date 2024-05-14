@@ -44,8 +44,8 @@ const ProjectList = [
     imgPath: RickAndMorty,
     title: "Rick and Morty",
     description: projects.description_project_3,
-    ghLink: "https://github.com/eduardoe92/Pokedex",
-    demoLink: "https://pokedex-eduardoe92.vercel.app/",
+    ghLink: "https://github.com/eduardoe92/ApiRickAndMorty",
+    demoLink: "https://rickandmorty-seven-virid.vercel.app/",
   },
   {
     imgPath: MakisanTech,
