@@ -10,15 +10,15 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col md="4">
           <a href="/">
             <img src={logo} className="img-fluid logo" alt="brand" />
           </a>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col md="4">
           <h3>Copyright © {year}</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        <Col md="4">
           <ul className="footer-icons">
             {SocialIcon.map((link, index) => (
               <li key={index} className="social-icons">
