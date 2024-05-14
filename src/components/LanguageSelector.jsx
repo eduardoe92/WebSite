@@ -18,6 +18,25 @@ function LanguageSelector() {
   };
 
   return (
+    <Nav.Item className="fork-btn">
+      <Button onClick={toggleLanguage} className="language-btn fork-btn-inner">
+        <img
+          src={i18n.language === "es" ? usFlag : esFlag}
+          alt={i18n.language === "es" ? "US Flag" : "ES Flag"}
+          style={{
+            width: "23px",
+            height: "23px",
+            borderRadius: "100%",
+          }}
+        />
+      </Button>
+    </Nav.Item>
+  );
+}
+
+export default LanguageSelector;
+
+// Otro estilo de botón
     // <Nav.Item className="fork-btn">
     //   <Button onClick={toggleLanguage} className="language-btn fork-btn-inner">
     //     <img
@@ -43,20 +62,3 @@ function LanguageSelector() {
     //     />
     //   </Button>
     // </Nav.Item>
-    <Nav.Item className="fork-btn">
-      <Button onClick={toggleLanguage} className="language-btn fork-btn-inner">
-        <img
-          src={i18n.language === "es" ? usFlag : esFlag}
-          alt={i18n.language === "es" ? "US Flag" : "ES Flag"}
-          style={{
-            width: "23px",
-            height: "23px",
-            borderRadius: "100%",
-          }}
-        />
-      </Button>
-    </Nav.Item>
-  );
-}
-
-export default LanguageSelector;

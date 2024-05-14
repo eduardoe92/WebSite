@@ -1,6 +1,6 @@
 {
   "link_home": "/home",
-  "link_about": "/about",
+  "link_about": "/about-me",
   "link_projects": "/projects",
   "link_contact": "/contact",
   "link_navigate": "/home",
@@ -16,7 +16,7 @@
 
   "strings_type": [
     "Full Stack Programmer",
-    "Web developer",
+    "Web Developer",
     "Enthusiastic",
     "Innovative",
     "Creative",
