@@ -27,9 +27,9 @@ function ContactForm() {
     setIsSending(true);
     setButtonText(t("form.form_sending"));
 
-    const nombre = nombreRef.current.value;
-    const correo = correoRef.current.value;
-    const mensaje = mensajeRef.current.value;
+    const nombre = nombreRef.current?.value || "";
+    const correo = correoRef.current?.value || "";
+    const mensaje = mensajeRef.current?.value || "";
 
     if (!nombre || !correo || !mensaje || !isValidEmail(correo) || mensaje.length > 1500) {
       setErrorMessage("Por favor, complete todos los campos correctamente.");
@@ -60,8 +60,8 @@ function ContactForm() {
   };
 
   return (
-    <Card className="project-card-view form-input mx-auto">
-      <br />
+    <Card className="project-card-view form-input mx-auto"
+    style={{ marginBottom: "50px" }} >
       <Row>
         <Card.Body>
           <Form onSubmit={handleSubmit}>
@@ -71,7 +71,7 @@ function ContactForm() {
               </Form.Label>
               <Form.Control
                 type="text"
-                className="project-card-view-form form-user text-right"
+                className="project-card-view-form form-user text-white"
                 name={t("form.form_name")}
                 placeholder={t("form.form_name")}
               />
@@ -82,7 +82,7 @@ function ContactForm() {
               </Form.Label>
               <Form.Control
                 type="email"
-                className="project-card-view-form form-user text-right"
+                className="project-card-view-form form-user text-white"
                 name={t("form.form_email")}
                 placeholder={t("form.form_email")}
               />
@@ -95,7 +95,7 @@ function ContactForm() {
                 as="textarea"
                 rows={3}
                 maxLength={1500}
-                className="project-card-view-form form-user text-right"
+                className="project-card-view-form form-user text-white"
                 name={t("form.form_subject")}
                 placeholder={t("form.form_message")}
               />
@@ -109,7 +109,6 @@ function ContactForm() {
           </Form>
         </Card.Body>
       </Row>
-      <br />
     </Card>
   );
 }
