@@ -65,7 +65,6 @@
   "subtitle_project_section_1": "A continuación te enseño algunos proyectos en los que he estado trabajando.",
 
   "projects_section": {
-
     "title_project_7": "ShopMax",  
     "description_project_7": "ShopMax, un e-commerce en desarrollo, se encuentra actualmente en fase de implementación entre un equipo de programadores. Estamos utilizando tecnologías como React para la interfaz de usuario, Java para la lógica y MySQL para la gestión de datos, nuestro objetivo es ofrecer una experiencia de compra en línea eficiente y de alta calidad que cumpla con los más altos estándares del mercado digital actual.",
     "github_project_7": "https://github.com/eduardoe92/tienda",

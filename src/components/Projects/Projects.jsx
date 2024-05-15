@@ -6,18 +6,17 @@ import ProjectList from "./ProjectList";
 import { useTranslation } from "react-i18next";
 
 function Projects() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const isDesktop = window.innerWidth >= 768 && window.innerWidth <= 1223;
   const [projectListData, setProjectListData] = useState([]);
 
   useEffect(() => {
-    // Load project list data and update state
     const fetchData = async () => {
-      const data = await ProjectList(); // Assuming ProjectList is a function that fetches project data
+      const data = await ProjectList();
       setProjectListData(data);
     };
     fetchData();
-  }, []);
+  },  [i18n.language]);
 
   return (
     <Container fluid className="project-section">
@@ -47,3 +46,4 @@ function Projects() {
 }
 
 export default Projects;
+

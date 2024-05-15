@@ -38,7 +38,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cv" element={<CV />} />
-          <Route path="*" element={<Navigate to={t("link_home")} />} />
+          <Route path="*" element={<Navigate to={t("home")} />} />
         </Routes>
         <Footer />
       </div>
