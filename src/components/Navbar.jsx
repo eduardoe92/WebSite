@@ -14,6 +14,7 @@ import { t } from "i18next";
 import { BsLaptop } from "react-icons/bs";
 import ButtonGithub from "./ButtonGithub";
 import LanguageSelector from "./LanguageSelector";
+import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -30,10 +31,11 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   const navItems = [
-    { to: t("link_home"), icon: <AiOutlineHome />, text: t("home") },
-    { to: t("link_about"), icon: <AiOutlineUser />, text: t("about_me") },
-    { to: t("link_projects"), icon: <BsLaptop />, text: t("projects") },
-    { to: t("link_contact"), icon: <AiOutlineMessage />, text: t("contact") },
+    { to: "/", icon: <AiOutlineHome />, text: t("home") },
+    { to: "/about", icon: <AiOutlineUser />, text: t("about_me") },
+    { to: "/projects", icon: <BsLaptop />, text: t("projects") },
+    { to: "/contact", icon: <AiOutlineMessage />, text: t("contact") },
+    { to: "/cv", icon: <CgFileDocument />, text: t("cv") },
   ];
 
   return (

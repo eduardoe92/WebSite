@@ -1,14 +1,9 @@
 {
-  "link_home": "/",
-  "link_about": "/acerca-de",
-  "link_projects": "/proyectos",
-  "link_contact": "/contacto",
-  "link_navigate": "/",
-
   "home": "Inicio",
   "about_me": "Acerca de",
   "projects": "Proyectos",
   "contact": "Contacto",
+  "cv": "CV",
 
   "welcome": "Hola a todos!",
   "iAm": "Soy",

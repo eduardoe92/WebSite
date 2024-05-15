@@ -12,6 +12,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/Contact/Contact";
 import { useTranslation } from "react-i18next";
+import CV from "./components/Resume/ResumeNew";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -32,10 +33,11 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path={t("link_home")} element={<Home />} />
-          <Route path={t("link_about")} element={<About />} />
-          <Route path={t("link_projects")} element={<Projects />} />
-          <Route path={t("link_contact")} element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cv" element={<CV />} />
           <Route path="*" element={<Navigate to={t("link_home")} />} />
         </Routes>
         <Footer />
