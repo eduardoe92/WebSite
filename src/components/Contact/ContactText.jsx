@@ -16,15 +16,15 @@ function ContactText() {
           className="blockquote mb-0"
           style={{ textAlign: "justify" }}
         >
-          <p>{t("contact_text_1")}</p>
+          <p className="text-white">{t("contact_text_1")}</p>
           <p>
             <strong className="purple"> {t("contact_text_2")}</strong>
           </p>
-          <p>{t("contact_text_3")}</p>
+          <p className="text-white">{t("contact_text_3")}</p>
           <p>
             <strong className="purple">{t("contact_text_4")}</strong>
           </p>
-          <p>{t("contact_text_5")}</p>
+          <p className="text-white">{t("contact_text_5")}</p>
         </blockquote>
       </Card.Body>
     </Card>

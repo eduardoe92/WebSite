@@ -16,7 +16,7 @@ function AboutCard() {
           className="blockquote mb-0"
           style={{ textAlign: "justify" }}
         >
-          <p>{t("about_text_1")}</p>
+          <p className="text-white">{t("about_text_1")}</p>
           <ul className="about-activity">
             <li>
               <strong className="purple">{t("about_text_2")}</strong>
@@ -28,9 +28,9 @@ function AboutCard() {
               <strong className="purple">{t("about_text_4")}</strong>
             </li>
           </ul>
-          <p>{t("about_text_5")}</p>
+          <p className="text-white">{t("about_text_5")}</p>
           <p><strong className="purple">{t("about_text_6")}</strong></p>
-          <p>{t("about_text_7")}</p>
+          <p className="text-white">{t("about_text_7")}</p>
         </blockquote>
       </Card.Body>
     </Card>

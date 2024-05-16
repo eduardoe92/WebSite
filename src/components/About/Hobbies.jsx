@@ -26,10 +26,10 @@ function Hobbies() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
-            <ImPointRight />{" "}
+            <ImPointRight className="text-white"/>{" "}
             <strong className="purple">{t("hobbies_title_1")}</strong>
           </p>
-          <ul>
+          <ul className="text-white">
             {hobbies.map((hobby, index) => (
               <li key={index} className="about-activity">
                 {hobby.icon} {hobby.text}
