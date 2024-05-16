@@ -65,40 +65,30 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
-    "title_project_7": "ShopMax",
-    "description_project_7": "ShopMax, an e-commerce platform currently in development, is in the implementation phase with a team of programmers. We are using technologies such as React for the user interface, Java for the backend logic, and MySQL for data management. Our goal is to offer an efficient and high-quality online shopping experience that meets the highest standards of today's digital market.",
-    "github_project_7": "https://github.com/eduardoe92/tienda",
-    "link_project_7": "",
+    "title_project_5": "Caroline Seda",
+    "description_project_5": "The Digital Nao Project involved creating a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. Only HTML, CSS, and Bootstrap technologies were used for its development, ensuring an elegant and functional presentation that highlights Ms. Seda's skills and services.",
+    "github_project_5": "https://github.com/eduardoe92/CarolineSada",
+    "link_project_5": "https://eduardoe92.github.io/CarolineSada/",
 
-    "title_project_6": "ConsoleLog.Ar",
-    "description_project_6": "The official website of the ConsoleLog.Ar brand is currently being developed by a team of specialized programmers. Using core technologies such as HTML, CSS, and JavaScript, we are committed to creating a web platform that reflects the essence and values of our brand, providing an optimal digital experience for our users.",
-    "github_project_6": "https://github.com/eduardoe92/consolelog.ar",
-    "link_project_6": "",
+    "title_project_4": "Makisan Tech",
+    "description_project_4": "The Makisan-Tech Landing Page, developed with HTML, CSS, and JavaScript, was the result of close collaboration with a team of front-end developers. Our main goal was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
+    "github_project_4": "https://github.com/eduardoe92/web-makisan-tech",
+    "link_project_4": "https://jonathansansok.github.io/web-makisan-tech/",
 
-    "title_project_5": "Pokedex",
-    "description_project_5": "The Pokedex Project, developed with React, leverages the Pokemon API to provide users with access to the specifications of their favorite Pokémon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for both Pokémon enthusiasts and developers.",
-    "github_project_5": "https://github.com/eduardoe92/Pokedex",
-    "link_project_5": "https://pokedex-eduardoe92.vercel.app/",
+    "title_project_3": "ShopMax",
+    "description_project_3": "ShopMax, an e-commerce platform currently in development, is in the implementation phase with a team of programmers. We are using technologies such as React for the user interface, Java for the backend logic, and MySQL for data management. Our goal is to offer an efficient and high-quality online shopping experience that meets the highest standards of today's digital market.",
+    "github_project_3": "https://github.com/eduardoe92/tienda",
+    "link_project_3": "",
 
-    "title_project_4": "Caroline Seda",
-    "description_project_4": "The Digital Nao Project involved creating a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. Only HTML, CSS, and Bootstrap technologies were used for its development, ensuring an elegant and functional presentation that highlights Ms. Seda's skills and services.",
-    "github_project_4": "https://github.com/eduardoe92/CarolineSada",
-    "link_project_4": "https://eduardoe92.github.io/CarolineSada/",
+    "title_project_2": "Pokedex",
+    "description_project_2": "The Pokedex Project, developed with React, leverages the Pokemon API to provide users with access to the specifications of their favorite Pokémon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for both Pokémon enthusiasts and developers.",
+    "github_project_2": "https://github.com/eduardoe92/Pokedex",
+    "link_project_2": "https://pokedex-eduardoe92.vercel.app/",
 
-    "title_project_3": "Rick and Morty",
-    "description_project_3": "The Rick and Morty Project, developed with React for the interface and utilizing the series' API to provide users with detailed information about each character. This application is deployed on Vercel, ensuring an interactive, smooth, enjoyable, and reliable platform for fans to explore the series' universe.",
-    "github_project_3": "https://github.com/eduardoe92/ApiRickAndMorty",
-    "link_project_3": "https://rickandmorty-seven-virid.vercel.app/",
-
-    "title_project_2": "Makisan Tech",
-    "description_project_2": "The Makisan-Tech Landing Page, developed with HTML, CSS, and JavaScript, was the result of close collaboration with a team of front-end developers. Our main goal was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
-    "github_project_2": "https://github.com/eduardoe92/web-makisan-tech",
-    "link_project_2": "https://jonathansansok.github.io/web-makisan-tech/",
-
-    "title_project_1": "Eidos Global",
-    "description_project_1": "For my final project at Eidos Global, I designed a personal presentation page using HTML, CSS, and JavaScript. Implementing an interactive interface was crucial to improving the user experience, ensuring adaptability to different devices through responsive design.",
-    "github_project_1": "https://github.com/eduardoe92/ProyectoFinal",
-    "link_project_1": "https://eduardoe92.github.io/ProyectoFinal/"
+    "title_project_1": "Rick and Morty",
+    "description_project_1": "The Rick and Morty Project, developed with React for the interface and utilizing the series' API to provide users with detailed information about each character. This application is deployed on Vercel, ensuring an interactive, smooth, enjoyable, and reliable platform for fans to explore the series' universe.",
+    "github_project_1": "https://github.com/eduardoe92/ApiRickAndMorty",
+    "link_project_1": "https://rickandmorty-seven-virid.vercel.app/"
   },
 
   "Deployer": "Deploy",
