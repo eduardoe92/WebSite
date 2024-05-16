@@ -75,22 +75,21 @@
     "github_project_4": "https://github.com/eduardoe92/web-makisan-tech",
     "link_project_4": "https://jonathansansok.github.io/web-makisan-tech/",
 
-    "title_project_3": "ShopMax",  
+    "title_project_3": "ShopMax",
     "description_project_3": "ShopMax, un e-commerce en desarrollo, se encuentra actualmente en fase de implementación entre un equipo de programadores. Estamos utilizando tecnologías como React para la interfaz de usuario, Java para la lógica y MySQL para la gestión de datos, nuestro objetivo es ofrecer una experiencia de compra en línea eficiente y de alta calidad que cumpla con los más altos estándares del mercado digital actual.",
     "github_project_3": "https://github.com/eduardoe92/tienda",
     "link_project_3": "",
-    
+
     "title_project_2": "Pokedex",
     "description_project_2": "El Proyecto Pokedex, desarrollado con React, aprovecha la API de Pokemon para brindar a los usuarios acceso a las especificaciones de sus Pokémon favoritos. Esta aplicación está alojada en Vercel, garantizando una experiencia fluida y confiable. Con un enfoque en la usabilidad y la precisión de los datos, el Proyecto Pokedex es una herramienta invaluable para los entusiastas de Pokémon y los desarrolladores por igual.",
     "github_project_2": "https://github.com/eduardoe92/Pokedex",
     "link_project_2": "https://pokedex-eduardoe92.vercel.app/",
-    
+
     "title_project_1": "Rick and Morty",
     "description_project_1": "El Proyecto Rick and Morty, desarrollado con React para la interfaz y utilizando la API de la serie para proporcionar a los usuarios información detallada sobre cada personaje. Esta aplicación está implementada en Vercel, asegurando una plataforma interactiva, fluida, agradable y confiable a los fans para explorar el universo de la serie.",
     "github_project_1": "https://github.com/eduardoe92/ApiRickAndMorty",
     "link_project_1": "https://rickandmorty-seven-virid.vercel.app/"
-    
-},
+  },
 
   "Deployer": "Desplegar",
 
@@ -100,19 +99,19 @@
   "contact_text_2": "Si deseas ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o completando el siguiente formulario con todos tus datos.",
   "contact_text_3": "Por favor, ten en cuenta que mi disponibilidad puede variar, pero haré todo lo posible por responder a tu mensaje en el menor tiempo posible.",
   "contact_text_4": "¡Espero tener noticias tuyas pronto!",
-  "contact_text_5": "Saludos cordiales.",  
+  "contact_text_5": "Saludos cordiales.",
 
-  "form":{
-    "form_name":"Nombre:",
-    "form_email":"Correo:",
-    "form_subject":"Mensaje:",
+  "form": {
+    "form_name": "Nombre:",
+    "form_email": "Correo:",
+    "form_subject": "Mensaje:",
 
-    "alert_send":"Mensaje enviado con éxito",
-    "alert_fail":"Hubo un problema al enviar el mensaje.",
+    "alert_send": "Mensaje enviado con éxito",
+    "alert_fail": "Hubo un problema al enviar el mensaje.",
 
-    "form_pre_send":"Enviar",
-    "form_sending":"Enviando...",
-    "form_error":"Error al enviar",
+    "form_pre_send": "Enviar",
+    "form_sending": "Enviando...",
+    "form_error": "Error al enviar",
     "form_send": "Enviado"
   },
 
