@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "react-bootstrap";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 
 function DownloadButton({ href, language }) {
     return (
@@ -8,9 +8,9 @@ function DownloadButton({ href, language }) {
             variant="primary"
             href={href}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px"}}
         >
-            <AiOutlineDownload />
+            <AiOutlineCloudDownload />
             &nbsp;{language === 'es' ? "Descargar CV" : "Download CV"}
         </Button>
     );

@@ -67,7 +67,6 @@ function NavBar() {
                   as={Link}
                   to={item.to}
                   onClick={() => updateExpanded(false)}
-                  style={{ marginBottom: "2px" }}
                 >
                   {item.icon}{" "}
                   {item.text}

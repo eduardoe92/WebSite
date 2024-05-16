@@ -72,7 +72,6 @@ function ContactForm() {
                 type="text"
                 className="project-card-view-form form-user text-white"
                 name={t("form.form_name")}
-                placeholder={t("form.form_name")}
                 ref={nombreRef}
               />
             </Form.Group>
@@ -84,7 +83,6 @@ function ContactForm() {
                 type="email"
                 className="project-card-view-form form-user text-white"
                 name={t("form.form_email")}
-                placeholder={t("form.form_email")}
                 ref={correoRef}
               />
             </Form.Group>
@@ -98,7 +96,6 @@ function ContactForm() {
                 maxLength={1500}
                 className="project-card-view-form form-user text-white"
                 name={t("form.form_subject")}
-                placeholder={t("form.form_message")}
                 ref={mensajeRef}
               />
             </Form.Group>

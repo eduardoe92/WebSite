@@ -73,7 +73,7 @@
     "title_project_6": "ConsoleLog.Ar",
     "description_project_6": "The official website of the ConsoleLog.Ar brand is currently being developed by a team of specialized programmers. Using core technologies such as HTML, CSS, and JavaScript, we are committed to creating a web platform that reflects the essence and values of our brand, providing an optimal digital experience for our users.",
     "github_project_6": "https://github.com/eduardoe92/consolelog.ar",
-    "link_project_6": "https://www.consolelog.ar/",
+    "link_project_6": "",
 
     "title_project_5": "Pokedex",
     "description_project_5": "The Pokedex Project, developed with React, leverages the Pokemon API to provide users with access to the specifications of their favorite Pokémon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for both Pokémon enthusiasts and developers.",
@@ -112,10 +112,9 @@
   "contact_text_5": "Best regards.",
 
   "form": {
-    "form_name": "Name",
-    "form_email": "Mail",
-    "form_subject": "Message",
-    "form_message": "Write your message here",
+    "form_name": "Name:",
+    "form_email": "Mail:",
+    "form_subject": "Message:",
 
     "alert_send": "Message sent succesfully.",
     "alert_fail": "There was a problem sending the message.",
