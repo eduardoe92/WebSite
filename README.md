@@ -19,7 +19,7 @@ Este portafolio ha sido construido con las siguientes tecnologías:
 - **Vercel**: La plataforma de alojamiento que utilizo para desplegar mi portafolio en línea.
 
 #### Mi portafolio es una muestra de mi trabajo como desarrollador web. 
-Aquí podrás explorar los proyectos en los que he trabajado, así como conocer más sobre mí, mi experiencia en el mundo del desarrollo web, y también descargar un PDF que contiene mi curriculum vita.
+Aquí podrás explorar los proyectos en los que he trabajado, así como conocer más sobre mí, mi experiencia en el mundo del desarrollo web, y también descargar un PDF que contiene mi curriculum vitae.
 
 ## Idiomas
 
