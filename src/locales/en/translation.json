@@ -65,6 +65,12 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
+
+    "title_project_5": "Library",
+    "description_project_5": "The Library Project is an application designed to manage a digital library, allowing users to register, update, and manage books, authors, and user accounts. Its main features include user registration, book and author management, password security, session control, and user roles. It uses technologies such as Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML, and Bootstrap to provide a secure and functional platform.",
+    "github_project_5": "https://github.com/eduardoe92/LibraryProject",
+    "link_project_5": "",
+
     "title_project_4": "Makisan Tech",
     "description_project_4": "The Makisan-Tech Landing Page, developed with HTML, CSS, and JavaScript, was the result of close collaboration with a team of front-end developers. Our main goal was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
     "github_project_4": "https://github.com/eduardoe92/web-makisan-tech",

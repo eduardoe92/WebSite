@@ -2,10 +2,19 @@ import MakisanTech from "../../Assets/Projects/Makisan-Tech.webp";
 import Pokedex from "../../Assets/Projects/Pokedex.webp";
 import RickAndMorty from "../../Assets/Projects/RickAndMorty.webp";
 import CarolineSeda from "../../Assets/Projects/CarolineSeda.webp";
+import Library from "../../Assets/Projects/Library.webp";
+
 import { t } from "i18next";
 
 const ProjectList = () => {
   return [
+    {
+      imgPath: Library,
+      title: t("projects_section.title_project_5"),
+      description: t("projects_section.description_project_5"),
+      ghLink: t("projects_section.github_project_5"),
+      demoLink: t("projects_section.link_project_5"),
+    },
     {
       imgPath: MakisanTech,
       title: t("projects_section.title_project_4"),
