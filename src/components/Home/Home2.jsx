@@ -25,6 +25,7 @@ function Home2() {
               <p>
                 <strong className="purple">{t("home_text_4")}</strong>
               </p>
+              <p>{t("home_text_5")}</p>
             </blockquote>
           </Col>
           <Col
