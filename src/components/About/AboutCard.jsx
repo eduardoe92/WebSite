@@ -31,6 +31,8 @@ function AboutCard() {
           <p className="text-white">{t("about_text_5")}</p>
           <p><strong className="purple">{t("about_text_6")}</strong></p>
           <p className="text-white">{t("about_text_7")}</p>
+          <p><strong className="purple">{t("about_text_8")}</strong></p>
+          <p className="text-white">{t("about_text_9")}</p>
         </blockquote>
       </Card.Body>
     </Card>

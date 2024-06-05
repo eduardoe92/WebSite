@@ -8,6 +8,7 @@ import homeLogo from "../../Assets/user.svg";
 import Toolstack from "./Toolstack";
 import SoftSkills from "./SoftSkills";
 import Hobbies from "./Hobbies";
+import TecSkills from "./TecSkills";
 
 function About() {
   return (
@@ -22,8 +23,7 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "15px",
+              paddingTop: "30px"
             }}
           >
             <Aboutcard />
@@ -42,10 +42,13 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
+          <Col md={4} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
+            <TecSkills />
+          </Col>
+          <Col md={4} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
             <SoftSkills />
           </Col>
-          <Col md={6} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
+          <Col md={4} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
             <Hobbies />
           </Col>
         </Row>

@@ -13,11 +13,11 @@ import {
 
 function Hobbies() {
   const hobbies = [
-    { icon: <FaPlane />, text: t("text_hobbie_1") },
-    { icon: <FaCamera />, text: t("text_hobbie_2") },
-    { icon: <FaCar />, text: t("text_hobbie_3") },
-    { icon: <FaBaseballBall />, text: t("text_hobbie_4") },
-    { icon: <FaFutbol />, text: t("text_hobbie_5") },
+    { icon: <FaCamera />, text: t("text_hobbie_1") },
+    { icon: <FaCar />, text: t("text_hobbie_2") },
+    { icon: <FaBaseballBall />, text: t("text_hobbie_3") },
+    { icon: <FaFutbol />, text: t("text_hobbie_4") },
+    { icon: <FaPlane />, text: t("text_hobbie_5") },
     { icon: <FaHeadphones />, text: t("text_hobbie_6") },
   ];
 

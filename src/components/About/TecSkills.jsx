@@ -1,26 +1,18 @@
 import { t } from "i18next";
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {
-  FaBrain,
-  FaClock,
-  FaComments,
-  FaLightbulb,
-  FaSearch,
-  FaSyncAlt,
-  FaUsers,
-} from "react-icons/fa";
+import { FaChartLine, FaCheckCircle, FaDesktop, FaHandsHelping, FaHeadset, FaLaptopCode, FaTools } from "react-icons/fa";
 import { ImPointRight } from "react-icons/im";
 
-function SoftSkills() {
+function TecSkills() {
   const softSkills = [
-    { icon: <FaBrain />, text: t("text_skills_soft_1") },
-    { icon: <FaComments />, text: t("text_skills_soft_2") },
-    { icon: <FaSearch />, text: t("text_skills_soft_3") },
-    { icon: <FaClock />, text: t("text_skills_soft_4") },
-    { icon: <FaUsers />, text: t("text_skills_soft_5") },
-    { icon: <FaSyncAlt />, text: t("text_skills_soft_6") },
-    { icon: <FaLightbulb />, text: t("text_skills_soft_7") },
+    { icon: <FaDesktop />, text: t("text_skills_tec_1") },
+    { icon: <FaChartLine />, text: t("text_skills_tec_2") },
+    { icon: <FaLaptopCode />, text: t("text_skills_tec_3") },
+    { icon: <FaTools />, text: t("text_skills_tec_4") },
+    { icon: <FaHandsHelping />, text: t("text_skills_tec_5") },
+    { icon: <FaCheckCircle />, text: t("text_skills_tec_6") },
+    { icon: <FaHeadset />, text: t("text_skills_tec_7") },
   ];
 
   return (
@@ -29,7 +21,7 @@ function SoftSkills() {
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
             <ImPointRight className="text-white"/>{" "}
-            <strong className="purple">{t("soft_skills_title_1")}</strong>
+            <strong className="purple">{t("tec_skills_title_1")}</strong>
           </p>
           <ul className="text-white">
             {softSkills.map((hobby, index) => (
@@ -44,4 +36,4 @@ function SoftSkills() {
   );
 }
 
-export default SoftSkills;
+export default TecSkills;
