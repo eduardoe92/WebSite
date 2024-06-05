@@ -23,7 +23,8 @@
   "home_text_1": "I am a passionate Web Developer in continuous training. I currently reside in Buenos Aires, Argentina, although I am originally from Mérida, Venezuela. Throughout my journey, I have invested my time in acquiring various knowledge and skills relevant to the industry, which are:",
   "home_text_2": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion, and Miro.",
   "home_text_3": "I have a deep passion for technology and web development, and I am committed to continuing to learn every day to become an Outstanding Professional in the IT World.",
-  "home_text_4": "I am willing to take on New Challenges and be part of innovative teams in the sector.",
+  "home_text_4": "In addition to my technical skills, I have a strong background in customer service, where I developed competencies in problem resolution, technical support and account management. These experiences have taught me the importance of effective communication and teamwork.",
+  "home_text_5": "I am willing to take on New Challenges and be part of innovative teams in the sector.",
 
   "about_tile_1": "Additional Information About Me",
 
@@ -34,25 +35,37 @@
   "about_text_5": "Previously, I was part of the University of the Andes, in Mérida, Venezuela, where I studied Electrical Engineering.",
   "about_text_6": "In addition to my professional education, I have sought to expand my knowledge through self-study on educational platforms such as Udemy, FundAula, and Educacion IT.",
   "about_text_7": "Additionally, I have worked on Personal Projects that have allowed me to apply and strengthen my web programming skills.",
+  "about_text_8": "In the customer service field, I have worked in various roles that have allowed me to develop critical skills such as technical problem solving, personalized attention, and the ability to work under pressure.",
+  "about_text_9": "These experiences have complemented my technical training, providing me with a broader perspective and interpersonal skills essential for teamwork.",
 
-  "soft_skills_title_1": "I Have Skills In:",
+  "tec_skills_title_1": "Technical Skills:",
 
-  "text_skills_1": "Logical and Analytical Thinking",
-  "text_skills_2": "Effective Communication",
-  "text_skills_3": "Attention to Detail",
-  "text_skills_4": "Time Management",
-  "text_skills_5": "Teamwork",
-  "text_skills_6": "Adaptability",
-  "text_skills_7": "Creativity",
+  "text_skills_tec_1": "Optimal Systems Management",
+  "text_skills_tec_2": "Process Optimization",
+  "text_skills_tec_3": "Computer Consulting",
+  "text_skills_tec_4": "Computer Assistance",
+  "text_skills_tec_5": "Customer Service",
+  "text_skills_tec_6": "Quality Control",
+  "text_skills_tec_7": "Technical Support",
 
-  "hobbies_title_1": "My Hobbies Are:",
+  "soft_skills_title_1": "Soft Skills:",
 
-  "text_hobbie_1": "Travel",
-  "text_hobbie_2": "Photography",
-  "text_hobbie_3": "Formula 1",
-  "text_hobbie_4": "Baseball",
-  "text_hobbie_5": "Football",
-  "text_hobbie_6": "Rock Music",
+  "text_skills_soft_1": "Logical and Analytical Thinking",
+  "text_skills_soft_2": "Effective Communication",
+  "text_skills_soft_3": "Attention to Detail",
+  "text_skills_soft_4": "Time Management",
+  "text_skills_soft_5": "Teamwork",
+  "text_skills_soft_6": "Adaptability",
+  "text_skills_soft_7": "Creativity",
+
+  "hobbies_title_1": "Hobbies:",
+
+  "text_hobbie_1": "Photography",
+  "text_hobbie_2": "Formula 1",
+  "text_hobbie_3": "Baseball",
+  "text_hobbie_4": "Football",
+  "text_hobbie_5": "Travel",
+  "text_hobbie_6": "Rock",
 
   "title_tech_stack_1": "Professional Skill Set",
 
@@ -65,7 +78,6 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
-
     "title_project_5": "Library",
     "description_project_5": "The Library Project is an application designed to manage a digital library, allowing users to register, update, and manage books, authors, and user accounts. Its main features include user registration, book and author management, password security, session control, and user roles. It uses technologies such as Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML, and Bootstrap to provide a secure and functional platform.",
     "github_project_5": "https://github.com/eduardoe92/LibraryProject",
