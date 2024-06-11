@@ -9,7 +9,7 @@ function Footer() {
 
   return (
     <Container fluid className="footer">
-      <Row>
+      <Row className="align-items-center text-center">
         <Col md="4">
           <a href="/">
             <img src={logo} className="img-fluid logo" alt="brand" />
