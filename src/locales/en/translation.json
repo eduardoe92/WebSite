@@ -78,28 +78,39 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
+
+    "title_project_7": "Frontend Mentor Challenges",
+    "description_project_7": "The Frontend Mentor Challenges repository is dedicated to recreating the various challenges from the Frontend Mentor platform. Its main objective is to enhance front-end development skills by tackling real-world design projects. Each challenge is implemented on Vercel. For more information about each challenge, please refer to the corresponding Readme. The technologies used include HTML, CSS, JavaScript, React, among others.",
+    "github_project_7": "https://github.com/eduardoe92/Challenge",
+    "link_project_7": "https://www.frontendmentor.io/",
+
+    "title_project_6": "QR App",
+    "description_project_6": "The QR App project is in constant development and focuses on QR code creation. Its goal is to provide users with a smooth, friendly, and enjoyable experience for easily generating QR codes for various applications. Over time, more features will be added to enhance the navigation experience. The application is deployed on Vercel and uses technologies such as React-Vite, JavaScript, Tailwind CSS, HTML, and CSS.",
+    "github_project_6": "https://github.com/eduardoe92/URL",
+    "link_project_6": "https://urlqr.vercel.app/",
+
     "title_project_5": "Library",
-    "description_project_5": "The Library Project is an application designed to manage a digital library, allowing users to register, update, and manage books, authors, and user accounts. Its main features include user registration, book and author management, password security, session control, and user roles. It uses technologies such as Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML, and Bootstrap to provide a secure and functional platform.",
+    "description_project_5": "The Library project is an application to manage a digital library. It allows users to register, update, and manage books, authors, and user accounts. Features include user registration, book and author management, password security, session control, and user roles. It uses Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML, and Bootstrap to provide a secure and functional platform.",
     "github_project_5": "https://github.com/eduardoe92/LibraryProject",
     "link_project_5": "",
 
     "title_project_4": "Makisan Tech",
-    "description_project_4": "The Makisan-Tech Landing Page, developed with HTML, CSS, and JavaScript, was the result of close collaboration with a team of front-end developers. Our main goal was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values.",
+    "description_project_4": "The Makisan-Tech Landing Page, developed with HTML, CSS, and JavaScript, was the result of close collaboration with a team of front-end developers. The main objective was to optimize the user experience, ensuring smooth navigation and an attractive presentation that reflects the company's values. This was achieved through an intuitive design and a well-organized structure that makes it easy to access information.",
     "github_project_4": "https://github.com/eduardoe92/web-makisan-tech",
     "link_project_4": "https://jonathansansok.github.io/web-makisan-tech/",
 
     "title_project_3": "Caroline Seda",
-    "description_project_3": "The Digital Nao Project involved creating a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. Only HTML, CSS, and Bootstrap technologies were used for its development, ensuring an elegant and functional presentation that highlights Ms. Seda's skills and services.",
+    "description_project_3": "The Digital Nao Project involved creating a Landing Page for 'Caroline Seda', a professional in Business Administration and Management. HTML, CSS, and Bootstrap technologies were used to ensure an elegant and functional presentation. The website highlights the skills and services offered by Caroline Seda, allowing visitors to get a clear and professional impression of her capabilities.",
     "github_project_3": "https://github.com/eduardoe92/CarolineSada",
     "link_project_3": "https://eduardoe92.github.io/CarolineSada/",
 
     "title_project_2": "Pokedex",
-    "description_project_2": "The Pokedex Project, developed with React, leverages the Pokemon API to provide users with access to the specifications of their favorite Pokémon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for both Pokémon enthusiasts and developers.",
+    "description_project_2": "The Pokedex Project, developed with React, uses the Pokemon API to provide users with access to the specifications of their favorite Pokémon. This application is hosted on Vercel, ensuring a smooth and reliable experience. With a focus on usability and data accuracy, the Pokedex Project is an invaluable tool for both Pokémon enthusiasts and developers. The interface is intuitive and easy to use.",
     "github_project_2": "https://github.com/eduardoe92/Pokedex",
     "link_project_2": "https://pokedex-eduardoe92.vercel.app/",
 
     "title_project_1": "Rick and Morty",
-    "description_project_1": "The Rick and Morty Project, developed with React for the interface and utilizing the series' API to provide users with detailed information about each character. This application is deployed on Vercel, ensuring an interactive, smooth, enjoyable, and reliable platform for fans to explore the series' universe.",
+    "description_project_1": "The Rick and Morty Project, developed with React for the interface and using the series' API, provides users with detailed information about each character. The application is deployed on Vercel, ensuring an interactive, smooth, pleasant, and reliable platform for fans. It allows exploration of the series' universe in a detailed and fun way, offering an enriching and entertaining user experience.",
     "github_project_1": "https://github.com/eduardoe92/ApiRickAndMorty",
     "link_project_1": "https://rickandmorty-seven-virid.vercel.app/"
   },

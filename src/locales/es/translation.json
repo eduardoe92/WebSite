@@ -37,7 +37,7 @@
   "about_text_7": "Adicionalmente, he trabajado en Proyectos Personales que me han permitido aplicar y fortalecer mis habilidades en programación web.",
   "about_text_8": "En el ámbito de atención al cliente, he trabajado en varios roles que me han permitido desarrollar habilidades críticas como la resolución de problemas técnicos, la atención personalizada y la capacidad de trabajar bajo presión.",
   "about_text_9": "Estas experiencias han complementado mi formación técnica, brindándome una perspectiva más amplia y habilidades interpersonales esenciales para el trabajo en equipo.",
-  
+
   "tec_skills_title_1": "Habilidades Técnicas:",
 
   "text_skills_tec_1": "Manejo Óptimo de Sistemas",
@@ -78,29 +78,38 @@
   "subtitle_project_section_1": "A continuación te enseño algunos proyectos en los que he estado trabajando.",
 
   "projects_section": {
+    "title_project_7": "Frontend Mentor Challenges",
+    "description_project_7": "El repositorio Frontend Mentor Challenges se dedica a recrear los diferentes desafíos de la plataforma Frontend Mentor. Su objetivo principal es mejorar las habilidades de desarrollo front-end al abordar proyectos de diseño del mundo real. Cada desafío se encuentra implementado en Vercel. Para obtener más información sobre cada desafío, consulte el correspondiente Readme. Las tecnologías utilizadas incluyen HTML, CSS, JavaScript, React, entre otras.",
+    "github_project_7": "https://github.com/eduardoe92/Challenge",
+    "link_project_7": "https://www.frontendmentor.io/",
+
+    "title_project_6": "QR App",
+    "description_project_6": "El proyecto QR App está en constante desarrollo y se centra en la creación de códigos QR. Su objetivo es proporcionar a los usuarios una experiencia fluida, amigable y agradable para generar códigos QR fácilmente para diversas aplicaciones. Con el tiempo, se agregarán más funciones para mejorar la experiencia de navegación. La aplicación está implementada en Vercel y utiliza tecnologías como React-Vite, JavaScript, Tailwind CSS, HTML y CSS",
+    "github_project_6": "https://github.com/eduardoe92/URL",
+    "link_project_6": "https://urlqr.vercel.app/",
 
     "title_project_5": "Librería",
-    "description_project_5": "El proyecto Biblioteca es una aplicación para gestionar una biblioteca digital, permitiendo a los usuarios registrar, actualizar y gestionar libros, autores y cuentas de usuario. Sus principales características incluyen el registro de usuarios, gestión de libros y autores, seguridad de contraseñas, control de sesiones y roles de usuario. Utiliza tecnologías como Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML y Bootstrap para ofrecer una plataforma segura y funcional.",
+    "description_project_5": "El proyecto Biblioteca es una aplicación para gestionar una biblioteca digital. Permite a los usuarios registrar, actualizar y gestionar libros, autores y cuentas de usuario. Incluye características como registro de usuarios, gestión de libros y autores, seguridad de contraseñas, control de sesiones y roles de usuario. Utiliza Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML y Bootstrap para ofrecer una plataforma segura y funcional.",
     "github_project_5": "https://github.com/eduardoe92/LibraryProject",
     "link_project_5": "",
 
     "title_project_4": "Makisan Tech",
-    "description_project_4": "La Landing Page de Makisan-Tech, desarrollada con HTML, CSS y JavaScript, fue fruto de una colaboración estrecha con un equipo de desarrolladores front-end. Nuestro objetivo principal fue optimizar la experiencia del usuario, asegurando una navegación fluida y una presentación atractiva que reflejara los valores de la empresa.",
+    "description_project_4": "La Landing Page de Makisan-Tech, desarrollada con HTML, CSS y JavaScript, fue el resultado de una colaboración estrecha con un equipo de desarrolladores front-end. El objetivo principal fue optimizar la experiencia del usuario, asegurando una navegación fluida y una presentación atractiva que reflejara los valores de la empresa. Esto se logró mediante un diseño intuitivo y una estructura bien organizada que facilita el acceso a la información.",
     "github_project_4": "https://github.com/eduardoe92/web-makisan-tech",
     "link_project_4": "https://jonathansansok.github.io/web-makisan-tech/",
 
     "title_project_3": "Caroline Seda",
-    "description_project_3": "El Proyecto de Digital Nao consistió en la creación de una Landing Page para 'Caroline Seda', profesional en Administración y Dirección de Empresas. Se emplearon exclusivamente tecnologías HTML, CSS y Bootstrap para su desarrollo, garantizando una presentación elegante y funcional que resalta las habilidades y servicios ofrecidos por la licenciada.",
+    "description_project_3": "El Proyecto de Digital Nao consistió en la creación de una Landing Page para 'Caroline Seda', profesional en Administración y Dirección de Empresas. Se emplearon tecnologías HTML, CSS y Bootstrap para su desarrollo, garantizando una presentación elegante y funcional. El sitio web resalta las habilidades y servicios ofrecidos por la licenciada, permitiendo a los visitantes obtener una impresión clara y profesional de sus capacidades.",
     "github_project_3": "https://github.com/eduardoe92/CarolineSada",
     "link_project_3": "https://eduardoe92.github.io/CarolineSada/",
 
     "title_project_2": "Pokedex",
-    "description_project_2": "El Proyecto Pokedex, desarrollado con React, aprovecha la API de Pokemon para brindar a los usuarios acceso a las especificaciones de sus Pokémon favoritos. Esta aplicación está alojada en Vercel, garantizando una experiencia fluida y confiable. Con un enfoque en la usabilidad y la precisión de los datos, el Proyecto Pokedex es una herramienta invaluable para los entusiastas de Pokémon y los desarrolladores por igual.",
+    "description_project_2": "El Proyecto Pokedex, desarrollado con React, utiliza la API de Pokemon para brindar a los usuarios acceso a las especificaciones de sus Pokémon favoritos. Esta aplicación está alojada en Vercel, garantizando una experiencia fluida y confiable. Con un enfoque en la usabilidad y la precisión de los datos, el Proyecto Pokedex es una herramienta invaluable tanto para los entusiastas de Pokémon como para los desarrolladores. La interfaz es intuitiva y fácil de usar.",
     "github_project_2": "https://github.com/eduardoe92/Pokedex",
     "link_project_2": "https://pokedex-eduardoe92.vercel.app/",
 
     "title_project_1": "Rick and Morty",
-    "description_project_1": "El Proyecto Rick and Morty, desarrollado con React para la interfaz y utilizando la API de la serie para proporcionar a los usuarios información detallada sobre cada personaje. Esta aplicación está implementada en Vercel, asegurando una plataforma interactiva, fluida, agradable y confiable a los fans para explorar el universo de la serie.",
+    "description_project_1": "El Proyecto Rick and Morty, desarrollado con React para la interfaz y utilizando la API de la serie, proporciona a los usuarios información detallada sobre cada personaje. La aplicación está implementada en Vercel, asegurando una plataforma interactiva, fluida, agradable y confiable para los fans. Permite explorar el universo de la serie de manera detallada y divertida, ofreciendo una experiencia de usuario enriquecedora y entretenida.",
     "github_project_1": "https://github.com/eduardoe92/ApiRickAndMorty",
     "link_project_1": "https://rickandmorty-seven-virid.vercel.app/"
   },
