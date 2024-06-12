@@ -3,11 +3,27 @@ import Pokedex from "../../Assets/Projects/Pokedex.webp";
 import RickAndMorty from "../../Assets/Projects/RickAndMorty.webp";
 import CarolineSeda from "../../Assets/Projects/CarolineSeda.webp";
 import Library from "../../Assets/Projects/Library.webp";
+import Challenges from "../../Assets/Projects/Challenges.webp";
+import QRApp from "../../Assets/Projects/QR-App.webp";
 
 import { t } from "i18next";
 
 const ProjectList = () => {
   return [
+    {
+      imgPath: Challenges,
+      title: t("projects_section.title_project_7"),
+      description: t("projects_section.description_project_7"),
+      ghLink: t("projects_section.github_project_7"),
+      demoLink: t("projects_section.link_project_7"),
+    },
+    {
+      imgPath: QRApp,
+      title: t("projects_section.title_project_6"),
+      description: t("projects_section.description_project_6"),
+      ghLink: t("projects_section.github_project_6"),
+      demoLink: t("projects_section.link_project_6"),
+    },
     {
       imgPath: Library,
       title: t("projects_section.title_project_5"),
