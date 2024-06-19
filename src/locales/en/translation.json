@@ -82,7 +82,7 @@
     "title_project_7": "Frontend Mentor Challenges",
     "description_project_7": "The Frontend Mentor Challenges repository is dedicated to recreating the various challenges from the Frontend Mentor platform. Its main objective is to enhance front-end development skills by tackling real-world design projects. Each challenge is implemented on Vercel. For more information about each challenge, please refer to the corresponding Readme. The technologies used include HTML, CSS, JavaScript, React, among others.",
     "github_project_7": "https://github.com/eduardoe92/Challenge",
-    "link_project_7": "https://www.frontendmentor.io/",
+    "link_project_7": "https://eduardoe92.github.io/Challenge/",
 
     "title_project_6": "QR App",
     "description_project_6": "The QR App project is in constant development and focuses on QR code creation. Its goal is to provide users with a smooth, friendly, and enjoyable experience for easily generating QR codes for various applications. Over time, more features will be added to enhance the navigation experience. The application is deployed on Vercel and uses technologies such as React-Vite, JavaScript, Tailwind CSS, HTML, and CSS.",
