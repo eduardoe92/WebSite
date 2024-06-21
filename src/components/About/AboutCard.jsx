@@ -6,11 +6,8 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <h1
-          className="text-uppercase"
-          style={{ fontSize: "2.1em", paddingBottom: "20px" }}
-        >
-          <strong className="purple"> {t("about_tile_1")}</strong>
+        <h1 className="text-uppercase purple" style={{ fontSize: "2.2em", paddingBottom: "50px"}}>
+          <strong> {t("about_tile_1")}</strong>
         </h1>
         <blockquote
           className="blockquote mb-0"
@@ -29,9 +26,13 @@ function AboutCard() {
             </li>
           </ul>
           <p className="text-white">{t("about_text_5")}</p>
-          <p><strong className="purple">{t("about_text_6")}</strong></p>
+          <p>
+            <strong className="purple">{t("about_text_6")}</strong>
+          </p>
           <p className="text-white">{t("about_text_7")}</p>
-          <p><strong className="purple">{t("about_text_8")}</strong></p>
+          <p>
+            <strong className="purple">{t("about_text_8")}</strong>
+          </p>
           <p className="text-white">{t("about_text_9")}</p>
         </blockquote>
       </Card.Body>

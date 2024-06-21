@@ -7,10 +7,10 @@ function ContactText() {
     <Card className="quote-card-view">
       <Card.Body>
         <h1
-          className="text-uppercase"
-          style={{ fontSize: "2.1em", paddingBottom: "20px" }}
+          className="text-uppercase purple"
+          style={{ fontSize: "2.2em", paddingBottom: "50px" }}
         >
-          <strong className="purple">{t("contact_title_1")}</strong>
+          <strong className="">{t("contact_title_1")}</strong>
         </h1>
         <blockquote
           className="blockquote mb-0"

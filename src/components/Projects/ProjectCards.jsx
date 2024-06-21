@@ -19,10 +19,10 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>
           <strong className="purple">—</strong>
-          <strong> {t(props.title)} </strong>
+          <strong>{t(props.title)}</strong>
           <strong className="purple">—</strong>
         </Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text className="text-home" style={{ textAlign: "justify" }}>
           {description}
         </Card.Text>
         <Button variant="primary" href={t(props.ghLink)} target="_blank">

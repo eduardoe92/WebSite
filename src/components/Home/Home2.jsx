@@ -10,11 +10,14 @@ function Home2() {
       <Container>
         <Row className="align-items-center">
           <Col md={8} className="home-about-description">
-            <h1 className="text-uppercase purple" style={{ fontSize: "2.6em" }}>
-              <strong className="purple"> {t("home_title_1")} </strong>
+            <h1
+              className="text-uppercase purple"
+              style={{ fontSize: "2.6em", paddingBottom: "50px" }}
+            >
+              <strong> {t("home_title_1")} </strong>
             </h1>
             <blockquote
-              className="home-about-body"
+              className="blockquote text-home"
               style={{ textAlign: "justify" }}
             >
               <p>{t("home_text_1")}</p>

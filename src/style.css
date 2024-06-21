@@ -47,9 +47,10 @@ button:focus {
   box-shadow: none !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
+/*--------------------*/
+/*------Preloader-----*/
+/*--------------------*/
+
 #preloader {
   position: fixed;
   top: 0;
@@ -72,9 +73,9 @@ button:focus {
   height: 100vh;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
+/*--------------------*/
+/*-----Scrollbar------*/
+/*--------------------*/
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -97,9 +98,10 @@ button:focus {
   border-radius: 12px;
 }
 
-/* --------- */
-/* Navbar Section  */
-/* --------- */
+/*----------------------*/
+/*----Navbar Section----*/
+/*----------------------*/
+
 .sticky {
   background-color: var(--navbar-bg-color) !important;
   transition: all 0.3s ease-out 0s !important;
@@ -233,9 +235,10 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
-/* Home section */
-/* --------- */
+/*--------------------*/
+/*----Home Section----*/
+/*--------------------*/
+
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.1s;
@@ -356,6 +359,10 @@ button:focus {
   }
 }
 
+.quote-card-view .card-body {
+  padding: 0;
+}
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
@@ -369,10 +376,8 @@ button:focus {
   text-align: center;
 }
 
-.home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
+.text-home {
+  padding: 0 10px;
 }
 
 .home-about-social {
@@ -433,9 +438,10 @@ button:focus {
   padding-left: 15px;
 }
 
-/* --------- */
-/* Footer */
-/* --------- */
+/*--------------------*/
+/*-------Footer-------*/
+/*--------------------*/
+
 .footer {
   background-color: var(--footer-bg-color);
   position: relative;
@@ -468,9 +474,9 @@ button:focus {
   color: var(--blockquote-footer-color);
 }
 
-/* --------- */
-/* Projects */
-/* --------- */
+/*--------------------*/
+/*------Projects------*/
+/*--------------------*/
 
 .project-section {
   position: relative !important;
@@ -480,7 +486,7 @@ button:focus {
 }
 
 .project-card {
-  padding: 15px !important;
+  padding: 24px !important;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   height: auto !important;
@@ -540,9 +546,9 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
-/* About */
-/* --------- */
+/*--------------------*/
+/*-------About--------*/
+/*--------------------*/
 
 .about-section {
   position: relative !important;
@@ -652,9 +658,9 @@ button:focus {
   display: none !important;
 }
 
-/********/
-/* FORM */
-/********/
+/*--------------------*/
+/*--------Form--------*/
+/*--------------------*/
 
 .form-input {
   width: 50% !important;
@@ -690,9 +696,9 @@ button:focus {
   }
 }
 
-/* --------- */
-/* Resume */
-/* --------- */
+/*--------------------*/
+/*-------Resume-------*/
+/*--------------------*/
 
 .resume-section {
   position: relative !important;

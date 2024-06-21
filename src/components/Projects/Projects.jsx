@@ -16,16 +16,24 @@ function Projects() {
       setProjectListData(data);
     };
     fetchData();
-  },  [i18n.language]);
+  }, [i18n.language]);
 
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading text-uppercase">
-          <strong className="purple">{t("title_project_section_1")}</strong>
+        <h1
+          className="project-heading text-uppercase purple"
+          style={{ fontSize: "2.2em", paddingBottom: "30px" }}
+        >
+          <strong>{t("title_project_section_1")}</strong>
         </h1>
-        <p style={{ color: "white" }}>{t("subtitle_project_section_1")}</p>
+        <blockquote
+          className="blockquote text-home"
+          style={{ textAlign: "center", color: "white" }}
+        >
+          <p>{t("subtitle_project_section_1")}</p>
+        </blockquote>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {projectListData.map((project, index) => (
             <Col key={index} md={isDesktop ? 6 : 4} className="project-card">
@@ -46,4 +54,3 @@ function Projects() {
 }
 
 export default Projects;
-
