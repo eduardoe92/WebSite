@@ -26,7 +26,7 @@ function Footer() {
                   href={link.href}
                   style={{ color: "white" }}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                 >
                   <link.icon />
                 </a>
