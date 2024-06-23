@@ -20,14 +20,13 @@ function SocialNetworks() {
                 rel="noreferrer"
                 className="home-social-icons"
               >
+                <span className="sr-only">{link.alt}</span>
                 <link.icon />
               </a>
             </li>
           ))}
         </ul>
-        <p>
-          {t("contact_icon_subtitle_1")}
-        </p>
+        <p>{t("contact_icon_subtitle_1")}</p>
       </Col>
     </Row>
   );

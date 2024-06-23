@@ -16,7 +16,7 @@ function Footer() {
           </a>
         </Col>
         <Col md="4">
-          <h3>Copyright © {year}</h3>
+          <span className="text-white">Copyright © {year}</span>
         </Col>
         <Col md="4">
           <ul className="footer-icons">
@@ -28,6 +28,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                 >
+                  <span className="sr-only">{link.alt}</span>
                   <link.icon />
                 </a>
               </li>

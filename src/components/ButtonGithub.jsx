@@ -4,18 +4,19 @@ import { AiFillStar } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
 
 function ButtonGithub() {
-return (
+  return (
     <Nav.Item className="fork-btn">
-        <Button
+      <Button
         href="https://github.com/eduardoe92"
         target="_blank"
         className="fork-btn-inner"
-        >
+      >
+        <span className="sr-only">Github</span>
         <CgGitFork style={{ fontSize: "1.2em" }} />
         <AiFillStar style={{ fontSize: "1.2em" }} />
-        </Button>
+      </Button>
     </Nav.Item>
-    );
+  );
 }
 
 export default ButtonGithub;
