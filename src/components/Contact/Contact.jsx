@@ -35,7 +35,7 @@ function Contact() {
             />
           </Col>
         </Row>
-        <ContactForm/>
+        <ContactForm />
         <SocialNetworks />
       </Container>
     </Container>

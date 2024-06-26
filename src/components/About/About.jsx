@@ -23,7 +23,7 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px"
+              paddingTop: "30px",
             }}
           >
             <Aboutcard />

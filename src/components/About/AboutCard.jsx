@@ -6,7 +6,10 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <h1 className="text-uppercase purple" style={{ fontSize: "2.2em", paddingBottom: "50px"}}>
+        <h1
+          className="text-uppercase purple"
+          style={{ fontSize: "2.2em", paddingBottom: "50px" }}
+        >
           <strong> {t("about_tile_1")}</strong>
         </h1>
         <blockquote

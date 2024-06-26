@@ -28,7 +28,7 @@ function SoftSkills() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
-            <ImPointRight className="text-white"/>{" "}
+            <ImPointRight className="text-white" />{" "}
             <strong className="purple">{t("soft_skills_title_1")}</strong>
           </p>
           <ul className="text-white">

@@ -4,11 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.webp";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineUser,
-  AiOutlineMessage,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
 import { BsLaptop } from "react-icons/bs";
 import ButtonGithub from "./ButtonGithub";
 import LanguageSelector from "./LanguageSelector";
@@ -68,13 +64,12 @@ function NavBar() {
                   to={item.to}
                   onClick={() => updateExpanded(false)}
                 >
-                  {item.icon}{" "}
-                  {item.text}
+                  {item.icon} {item.text}
                 </Nav.Link>
               </Nav.Item>
             ))}
-            <LanguageSelector/>
-            <ButtonGithub/>
+            <LanguageSelector />
+            <ButtonGithub />
           </Nav>
         </Navbar.Collapse>
       </Container>

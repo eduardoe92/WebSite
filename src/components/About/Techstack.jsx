@@ -36,7 +36,13 @@ function Techstack() {
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         {stack.map((stack, index) => (
-          <Col key={index} xs={4} md={2} className="tech-icons" style={{ justifyContent: "center"}}>
+          <Col
+            key={index}
+            xs={4}
+            md={2}
+            className="tech-icons"
+            style={{ justifyContent: "center" }}
+          >
             {stack.icon}
             <div className="text-white fs-6">{stack.name}</div>
           </Col>

@@ -78,7 +78,6 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
-
     "title_project_7": "Frontend Mentor Challenges",
     "description_project_7": "The Frontend Mentor Challenges repository is dedicated to recreating the various challenges from the Frontend Mentor platform. Its main objective is to enhance front-end development skills by tackling real-world design projects. Each challenge is implemented on Vercel. For more information about each challenge, please refer to the corresponding Readme. The technologies used include HTML, CSS, JavaScript, React, among others.",
     "github_project_7": "https://github.com/eduardoe92/Challenge",

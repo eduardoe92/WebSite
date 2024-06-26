@@ -26,7 +26,7 @@ function Hobbies() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
-            <ImPointRight className="text-white"/>{" "}
+            <ImPointRight className="text-white" />{" "}
             <strong className="purple">{t("hobbies_title_1")}</strong>
           </p>
           <ul className="text-white">
@@ -43,12 +43,3 @@ function Hobbies() {
 }
 
 export default Hobbies;
-
-// import {
-//     FaBaseballBall,
-//     FaCamera,
-//     FaCar,
-//     FaFutbol,
-//     FaHeadphones,
-//     FaPlane,
-//   } from "react-icons/fa";

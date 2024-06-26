@@ -31,7 +31,13 @@ function ContactForm() {
     const correo = correoRef.current?.value || "";
     const mensaje = mensajeRef.current?.value || "";
 
-    if (!nombre || !correo || !mensaje || !isValidEmail(correo) || mensaje.length > 1500) {
+    if (
+      !nombre ||
+      !correo ||
+      !mensaje ||
+      !isValidEmail(correo) ||
+      mensaje.length > 1500
+    ) {
       setErrorMessage("Por favor, complete todos los campos correctamente.");
       setIsSending(false);
       setButtonText(t("form.form_pre_send"));
@@ -39,11 +45,14 @@ function ContactForm() {
     }
 
     try {
-      const response = await axios.post("https://eduardoeliaschacon-portfolio.vercel.app/api/send-mail", {
-        nombre,
-        correo,
-        mensaje,
-      });
+      const response = await axios.post(
+        "https://eduardoeliaschacon-portfolio.vercel.app/api/send-mail",
+        {
+          nombre,
+          correo,
+          mensaje,
+        }
+      );
       if (response.status === 200) {
         setSuccessMessage(t("form.alert_send"));
         setErrorMessage("");
@@ -60,7 +69,10 @@ function ContactForm() {
   };
 
   return (
-    <Card className="project-card-view form-input mx-auto" style={{ marginBottom: "50px" }}>
+    <Card
+      className="project-card-view form-input mx-auto"
+      style={{ marginBottom: "50px" }}
+    >
       <Row>
         <Card.Body>
           <Form onSubmit={handleSubmit}>

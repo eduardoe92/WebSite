@@ -1,7 +1,15 @@
 import { t } from "i18next";
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { FaChartLine, FaCheckCircle, FaDesktop, FaHandsHelping, FaHeadset, FaLaptopCode, FaTools } from "react-icons/fa";
+import {
+  FaChartLine,
+  FaCheckCircle,
+  FaDesktop,
+  FaHandsHelping,
+  FaHeadset,
+  FaLaptopCode,
+  FaTools,
+} from "react-icons/fa";
 import { ImPointRight } from "react-icons/im";
 
 function TecSkills() {
@@ -20,7 +28,7 @@ function TecSkills() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about-activity text-uppercase">
-            <ImPointRight className="text-white"/>{" "}
+            <ImPointRight className="text-white" />{" "}
             <strong className="purple">{t("tec_skills_title_1")}</strong>
           </p>
           <ul className="text-white">

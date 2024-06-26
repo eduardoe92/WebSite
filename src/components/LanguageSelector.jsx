@@ -35,30 +35,3 @@ function LanguageSelector() {
 }
 
 export default LanguageSelector;
-
-// Otro estilo de botón
-    // <Nav.Item className="fork-btn">
-    //   <Button onClick={toggleLanguage} className="language-btn fork-btn-inner">
-    //     <img
-    //       src={esFlag}
-    //       alt="es-flag"
-    //       style={{
-    //         width: "23px",
-    //         height: "23px",
-    //         borderRadius: "100%",
-    //         marginRight: "5px",
-    //         opacity: language === "es" ? 1 : 0.5
-    //       }}
-    //     />
-    //     <img
-    //       src={usFlag}
-    //       alt="us-flag"
-    //       style={{
-    //         width: "23px",
-    //         height: "23px",
-    //         borderRadius: "100%",
-    //         opacity: language === "en" ? 1 : 0.5
-    //       }}
-    //     />
-    //   </Button>
-    // </Nav.Item>
