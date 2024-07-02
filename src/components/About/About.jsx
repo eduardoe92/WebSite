@@ -6,9 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import homeLogo from "../../Assets/user.svg";
 import Toolstack from "./Toolstack";
-import SoftSkills from "./SoftSkills";
-import Hobbies from "./Hobbies";
-import TecSkills from "./TecSkills";
+import List from "./List";
 
 function About() {
   return (
@@ -41,17 +39,7 @@ function About() {
             />
           </Col>
         </Row>
-        <Row>
-          <Col md={4} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
-            <TecSkills />
-          </Col>
-          <Col md={4} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
-            <SoftSkills />
-          </Col>
-          <Col md={4} style={{ paddingTop: "30px", paddingBottom: "30px" }}>
-            <Hobbies />
-          </Col>
-        </Row>
+        <List/>
         <Techstack />
         <Toolstack />
         <Github />
