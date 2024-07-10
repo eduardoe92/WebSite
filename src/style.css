@@ -600,11 +600,10 @@ button:focus {
   gap: 2;
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .columnStyle {
     justify-content: left;
   }
-  
 }
 
 .about-activity {
