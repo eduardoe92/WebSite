@@ -4,7 +4,6 @@ import Particle from "../Particle";
 import laptopImg from "../../Assets/contact.svg";
 import ContactText from "./ContactText";
 import SocialNetworks from "./SocialNetWorks";
-import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -35,7 +34,6 @@ function Contact() {
             />
           </Col>
         </Row>
-        <ContactForm />
         <SocialNetworks />
       </Container>
     </Container>
