@@ -78,6 +78,11 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
+    "title_project_8": "Flowento",
+    "description_project_8": "Flowento is a mobile-first web app created for the Valencia Business Hub. It centralizes and automates event management, solving issues with manual processes, email registrations, and attendance control. It uses technologies like React, Tailwind CSS, Node.js, and PostgreSQL. Flowento facilitates the creation, promotion, registration, and tracking of events, providing real-time metrics and attendance verification, improving the efficiency and profitability of events.",
+    "github_project_8": "https://github.com/eduardoe92/Flowento-App-Front",
+    "link_project_8": "https://flowento-app.vercel.app",
+
     "title_project_7": "Frontend Mentor Challenges",
     "description_project_7": "The Frontend Mentor Challenges repository is dedicated to recreating the various challenges from the Frontend Mentor platform. Its main objective is to enhance front-end development skills by tackling real-world design projects. Each challenge is implemented on Vercel. For more information about each challenge, please refer to the corresponding Readme. The technologies used include HTML, CSS, JavaScript, React, among others.",
     "github_project_7": "https://github.com/eduardoe92/Challenge",

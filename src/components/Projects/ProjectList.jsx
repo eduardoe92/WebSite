@@ -5,11 +5,19 @@ import CarolineSeda from "../../Assets/Projects/CarolineSeda.webp";
 import Library from "../../Assets/Projects/Library.webp";
 import Challenges from "../../Assets/Projects/Challenges.webp";
 import QRApp from "../../Assets/Projects/QR-App.webp";
+import Flowento from "../../Assets/Projects/Flowento.webp"
 
 import { t } from "i18next";
 
 const ProjectList = () => {
   return [
+    {
+      imgPath: Flowento,
+      title: t("projects_section.title_project_8"),
+      description: t("projects_section.description_project_8"),
+      ghLink: t("projects_section.github_project_8"),
+      demoLink: t("projects_section.link_project_8"),
+    },
     {
       imgPath: Challenges,
       title: t("projects_section.title_project_7"),
