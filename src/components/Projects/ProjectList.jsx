@@ -1,7 +1,7 @@
 import MakisanTech from "../../Assets/Projects/Makisan-Tech.webp";
 import Pokedex from "../../Assets/Projects/Pokedex.webp";
 import RickAndMorty from "../../Assets/Projects/RickAndMorty.webp";
-import CarolineSeda from "../../Assets/Projects/CarolineSeda.webp";
+import CarolineSada from "../../Assets/Projects/CarolineSada.webp";
 import Library from "../../Assets/Projects/Library.webp";
 import Challenges from "../../Assets/Projects/Challenges.webp";
 import QRApp from "../../Assets/Projects/QR-App.webp";
@@ -47,7 +47,7 @@ const ProjectList = () => {
       demoLink: t("projects_section.link_project_4"),
     },
     {
-      imgPath: CarolineSeda,
+      imgPath: CarolineSada,
       title: t("projects_section.title_project_3"),
       description: t("projects_section.description_project_3"),
       ghLink: t("projects_section.github_project_3"),
