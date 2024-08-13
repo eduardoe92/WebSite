@@ -20,23 +20,23 @@
 
   "home_title_1": "Let Me Introduce Myself",
 
-  "home_text_1": "I am a passionate Web Developer in continuous training. I currently reside in Buenos Aires, Argentina, although I am originally from Mérida, Venezuela. Throughout my journey, I have invested my time in acquiring various knowledge and skills relevant to the industry, which are:",
-  "home_text_2": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion, and Miro.",
-  "home_text_3": "I have a deep passion for technology and web development, and I am committed to continuing to learn every day to become an Outstanding Professional in the IT World.",
-  "home_text_4": "In addition to my technical skills, I have a strong background in customer service, where I developed competencies in problem resolution, technical support and account management. These experiences have taught me the importance of effective communication and teamwork.",
-  "home_text_5": "I am willing to take on New Challenges and be part of innovative teams in the sector.",
+  "home_text_1": "I am a Full Stack Developer with experience in creating and maintaining web applications. I currently reside in Buenos Aires, Argentina, although I am originally from Mérida, Venezuela. Throughout my career, I have built a solid foundation in various key industry technologies, such as:",
+  "home_text_2": "Java, React JS, JavaScript, Astro, Node JS, Spring MVC, Object-Oriented Programming (OOP), SOLID Principles, RESTful APIs, Bootstrap, Tailwind, MySQL, HTML, CSS, GitHub, Vercel, Figma, Postman, WordPress, Trello, Notion, Miro, among others.",
+  "home_text_3": "I am committed to quality and optimization, excelling in the implementation of efficient solutions and improving the user experience. My goal is to continue refining my skills to contribute to the success of challenging projects in the IT sector.",
+  "home_text_4": "In addition to my technical skills, I have developed competencies in customer service, problem-solving, effective communication, and teamwork, which complement my profile as a developer.",
+  "home_text_5": "Eager to take on new challenges and contribute with innovative solutions within dynamic and ever-evolving teams.",
 
   "about_tile_1": "Additional Information About Me",
 
-  "about_text_1": "I have participated in various training programs that have enriched my skill set as a programmer. These programs include:",
+  "about_text_1": "I have participated in various training programs that have strengthened my profile as a developer. These programs include:",
   "about_text_2": "Full Stack — Developer Core at 'Digital Nao x Tecmilenio'.",
-  "about_text_3": "Full Stack Programmer at 'Egg Cooperation and Argentina Programa'.",
-  "about_text_4": "Front End Developer at 'Eidos Global and Accenture'.",
-  "about_text_5": "Previously, I was part of the University of the Andes, in Mérida, Venezuela, where I studied Electrical Engineering.",
-  "about_text_6": "In addition to my professional education, I have sought to expand my knowledge through self-study on educational platforms such as Udemy, FundAula, and Educacion IT.",
-  "about_text_7": "Additionally, I have worked on Personal Projects that have allowed me to apply and strengthen my web programming skills.",
-  "about_text_8": "In the customer service field, I have worked in various roles that have allowed me to develop critical skills such as technical problem solving, personalized attention, and the ability to work under pressure.",
-  "about_text_9": "These experiences have complemented my technical training, providing me with a broader perspective and interpersonal skills essential for teamwork.",
+  "about_text_3": "Full Stack Developer at 'Egg Cooperation'.",
+  "about_text_4": "Front-End Developer at 'Eidos Global - Accenture'.",
+  "about_text_5": "I studied Electrical Engineering at the University of the Andes in Mérida, Venezuela, which provided me with a strong foundation in logic and problem-solving.",
+  "about_text_6": "In addition to my academic background, I have expanded my knowledge through self-learning on educational platforms such as Udemy, FundAula, and Educacion IT.",
+  "about_text_7": "I have worked on Personal Projects that have allowed me to apply and strengthen my web programming skills, consolidating my experience in both Front-end and Back-end development.",
+  "about_text_8": "These experiences have complemented my technical training, providing me with a comprehensive perspective and essential interpersonal skills for teamwork, effective communication, and project management.",
+  "about_text_9": "With solid experience in customer service, I have also worked in roles that require problem-solving skills, clear communication, and the ability to quickly adapt to new technologies and challenges.",
 
   "tec_skills_title_1": "Technical Skills:",
 

@@ -20,23 +20,23 @@
 
   "home_title_1": "Permíteme Presentarme",
 
-  "home_text_1": "Soy un apasionado Programador Web en constante formación. Actualmente resido en Buenos Aires, Argentina, aunque soy originario de Mérida, Venezuela. A lo largo de mi trayecto, he invertido mi tiempo en adquirir diversos conocimientos y habilidades relevantes para la industria, las cuales son:",
-  "home_text_2": "Java, React, Astro, MySQL, JavaScript, HTML, CSS, Bootstrap, Tailwind-CSS, Spring, WordPress, NodeJS, Postman, Vercel, GitHub, Figma, Jira, Trello, Notion y Miro.",
-  "home_text_3": "Siento una profunda pasión por la tecnología y el desarrollo web, y estoy comprometido a seguir aprendiendo cada día para convertirme en un Profesional de Excelencia en el Mundo IT.",
-  "home_text_4": "Además de mis habilidades técnicas, tengo una sólida experiencia en atención al cliente, donde he desarrollado competencias en resolución de problemas, soporte técnico, y gestión de cuentas. Estas experiencias me han enseñado la importancia de la comunicación efectiva y el trabajo en equipo.",
-  "home_text_5": "Estoy dispuesto a asumir Nuevos Desafíos y formar parte de equipos innovadores en el sector.",
+  "home_text_1": "Soy un Desarrollador Full Stack con experiencia en la creación y mantenimiento de aplicaciones web. Actualmente resido en Buenos Aires, Argentina, aunque soy originario de Mérida, Venezuela. A lo largo de mi carrera, he adquirido una sólida base en diversas tecnologías clave para la industria, como:",
+  "home_text_2": "Java, React JS, JavaScript, Astro, Node JS, Spring MVC, Programación Orientada a Objetos (POO), Principios SOLID, APIs RESTful, Bootstrap, Tailwind, MySQL, HTML, CSS, GitHub, Vercel, Figma, Postman, WordPress, Trello, Notion, Miro, entre otras.",
+  "home_text_3": "Estoy comprometido con la calidad y la optimización, destacándome en la implementación de soluciones eficientes y la mejora de la experiencia del usuario. Mi objetivo es seguir perfeccionando mis habilidades para contribuir al éxito de proyectos desafiantes en el sector IT.",
+  "home_text_4": "Además de mis habilidades técnicas, he desarrollado competencias en atención al cliente, manejo de resolución de problemas, comunicación efectiva y el trabajo en equipo, lo que complementa mi perfil como desarrollador.",
+  "home_text_5": "Dispuesto para asumir nuevos desafíos y contribuir con soluciones innovadoras dentro de equipos dinámicos y en constante evolución.",
 
   "about_tile_1": "Información adicional acerca de mí",
 
-  "about_text_1": "He participado en diversos programas de formación que han enriquecido mi conjunto de habilidades como programador. Estos programas son: ",
+  "about_text_1": "He participado en diversos programas de formación que han fortalecido mi perfil como desarrollador. Estos programas incluyen:",
   "about_text_2": "Full Stack — Developer Core en 'Digital Nao x Tecmilenio'.",
-  "about_text_3": "Programador Full — Stack en 'Egg Cooperation y Argentina Programa'.",
-  "about_text_4": "Desarrollador Front — End en 'Eidos Global y Accenture'.",
-  "about_text_5": "Anteriormente formé parte de la Universidad de los Andes, en la ciudad de Mérida — Venezuela, en donde estudié la carrera de Ingeniería Eléctrica.",
-  "about_text_6": "Además de mi formación profesional, he buscado de manera autodidacta expandir mis conocimientos a través de plataformas educativas como Udemy, FundAula y Educacion IT.",
-  "about_text_7": "Adicionalmente, he trabajado en Proyectos Personales que me han permitido aplicar y fortalecer mis habilidades en programación web.",
-  "about_text_8": "En el ámbito de atención al cliente, he trabajado en varios roles que me han permitido desarrollar habilidades críticas como la resolución de problemas técnicos, la atención personalizada y la capacidad de trabajar bajo presión.",
-  "about_text_9": "Estas experiencias han complementado mi formación técnica, brindándome una perspectiva más amplia y habilidades interpersonales esenciales para el trabajo en equipo.",
+  "about_text_3": "Programador Full Stack en 'Egg Cooperation'.",
+  "about_text_4": "Desarrollador Front-End en 'Eidos Global - Accenture'.",
+  "about_text_5": "Estudié Ingeniería Eléctrica en la Universidad de los Andes, en Mérida, Venezuela, lo que me brindó una base sólida en lógica y resolución de problemas.",
+  "about_text_6": "Además de mi formación académica, he ampliado mis conocimientos de manera autodidacta a través de plataformas educativas como Udemy, FundAula, y Educacion IT.",
+  "about_text_7": "He desarrollado Proyectos Personales que me han permitido aplicar y reforzar mis habilidades en programación web, consolidando mi experiencia tanto en Front-end como en Back-end.",
+  "about_text_8": "Estas experiencias han complementado mi formación técnica, brindándome una perspectiva integral y habilidades interpersonales esenciales para el trabajo en equipo, la comunicación efectiva, y la gestión de proyectos.",
+  "about_text_9": "Con una sólida experiencia en atención al cliente, también he trabajado en roles que requieren habilidades de resolución de problemas, comunicación clara y la capacidad de adaptarse rápidamente a nuevas tecnologías y desafíos.",
 
   "tec_skills_title_1": "Habilidades Técnicas:",
 
