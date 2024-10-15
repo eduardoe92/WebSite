@@ -78,8 +78,13 @@
   "subtitle_project_section_1": "Here are some projects I have been working on.",
 
   "projects_section": {
+    "title_project_9": "Bariló",
+    "description_project_9": "Bariló is an innovative Mobile-First Web-App designed to transform the experience of graduate trips in Argentina, making them accessible and personalized for all students, regardless of their economic situation. Travel companies often offer standardized packages, limiting customization and accessibility. This lack of suitable alternatives intensifies inequalities, highlighting the urgent need for inclusive solutions. Technologies used: React, TypeScript, Tailwind CSS, Java, SpringMVC and PostgreSQL.",
+    "github_project_9": "https://github.com/eduardoe92/Barilo-App-Front",
+    "link_project_9": "https://barilo.vercel.app",
+
     "title_project_8": "Flowento",
-    "description_project_8": "Flowento is a mobile-first web app created for the Valencia Business Hub. It centralizes and automates event management, solving issues with manual processes, email registrations, and attendance control. It uses technologies like React, Tailwind CSS, Node.js, and PostgreSQL. Flowento facilitates the creation, promotion, registration, and tracking of events, providing real-time metrics and attendance verification, improving the efficiency and profitability of events.",
+    "description_project_8": "Flowento is a Mobile-First Web-App created for the Valencia Business Hub. It centralizes and automates event management, solving issues with manual processes, email registrations, and attendance control. It uses technologies like React, Tailwind CSS, Node.js, and PostgreSQL. Flowento facilitates the creation, promotion, registration, and tracking of events, providing real-time metrics and attendance verification, improving the efficiency and profitability of events.",
     "github_project_8": "https://github.com/eduardoe92/Flowento-App-Front",
     "link_project_8": "https://flowento-app.vercel.app",
 

@@ -6,11 +6,19 @@ import Library from "../../Assets/Projects/Library.webp";
 import Challenges from "../../Assets/Projects/Challenges.webp";
 import QRApp from "../../Assets/Projects/QR-App.webp";
 import Flowento from "../../Assets/Projects/Flowento.webp"
+import Barilo from "../../Assets/Projects/Barilo.webp"
 
 import { t } from "i18next";
 
 const ProjectList = () => {
   return [
+    {
+      imgPath: Barilo,
+      title: t("projects_section.title_project_7"),
+      description: t("projects_section.description_project_7"),
+      ghLink: t("projects_section.github_project_7"),
+      demoLink: t("projects_section.link_project_7"),
+    },
     {
       imgPath: Flowento,
       title: t("projects_section.title_project_8"),
