@@ -8,7 +8,7 @@ Aquí encontrarás una muestra de mis proyectos y habilidades como desarrollador
 
 Puedes acceder presionando el siguiente enlace:
 
-[![Website](https://img.shields.io/badge/Website-%236DB33F.svg?style=for-the-badge&logo=web&logoColor=white)](https://eduardoeliaschacon-portfolio.vercel.app/)
+[![Website](https://img.shields.io/badge/Website-%236DB33F.svg?style=for-the-badge&logo=web&logoColor=white)](https://eduardochacon.vercel.app/)
 
 ## Tecnologías Utilizadas
 
