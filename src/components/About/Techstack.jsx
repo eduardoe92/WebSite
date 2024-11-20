@@ -4,13 +4,14 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMysql,
   DiHtml5,
   DiJava,
   DiCss3,
   DiWordpress,
 } from "react-icons/di";
+import { BiLogoTypescript } from "react-icons/bi";
+import { FaNodeJs } from "react-icons/fa";
 import { t } from "i18next";
 
 function Techstack() {
@@ -20,13 +21,14 @@ function Techstack() {
     { icon: <SiAstro />, name: "Astro" },
     { icon: <DiMysql />, name: "MySQL" },
     { icon: <DiJavascript1 />, name: "JavaScript" },
+    { icon: <BiLogoTypescript />, name: "TypeScript" },
     { icon: <DiHtml5 />, name: "HTML" },
     { icon: <DiCss3 />, name: "CSS" },
     { icon: <SiBootstrap />, name: "Bootstrap" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
     { icon: <SiSpring />, name: "Spring Framework" },
     { icon: <DiWordpress />, name: "WordPress" },
-    { icon: <DiNodejs />, name: "Node.JS" },
+    { icon: <FaNodeJs />, name: "Node.JS" },
   ];
 
   return (
