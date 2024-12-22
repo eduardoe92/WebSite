@@ -78,6 +78,11 @@
   "subtitle_project_section_1": "A continuación te enseño algunos proyectos en los que he estado trabajando.",
   
   "projects_section": {
+    "title_project_10": "MindUp",
+    "description_project_10": "Es una plataforma innovadora desarrollada con un enfoque Mobile-First que revoluciona la forma en que los pacientes encuentran a su psicólogo ideal. Conectando a las personas con profesionales que realmente se ajusten a sus necesidades, realizando un cuestionario inicial y perfiles enriquecidos con fotos, videos y descripciones humanas para facilitar relaciones terapéuticas. Construida con tecnologías como Java Spring Boot, PostgreSQL, MongoDB y una arquitectura basada en microservicios, Mindup también integra un sistema de chat en tiempo real para asistencia de emergencia. Priorizando la accesibilidad, personalización y escalabilidad para impactar positivamente en el bienestar mental.",
+    "github_project_10": "https://github.com/eduardoe92/MindUp-Backend",
+    "link_project_10": "https://mindup-app.vercel.app/",
+
     "title_project_9": "Bariló",
     "description_project_9": "Bariló es una innovadora Web-App Mobile-First diseñada para transformar la experiencia de los viajes de egresados en Argentina, haciéndolos accesibles y personalizados para todos los estudiantes, sin importar su situación económica. Las empresas de viajes suelen ofrecer paquetes estandarizados, limitando la personalización y accesibilidad. Esta falta de alternativas adecuadas intensifica las desigualdades, resaltando la urgente necesidad de soluciones inclusivas. Tecnologías utilizadas: React, TypeScript, Tailwind CSS, Java, SpringMVC y PostgreSQL.",
     "github_project_9": "https://github.com/eduardoe92/Barilo-App-Front",
