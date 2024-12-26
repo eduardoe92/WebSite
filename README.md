@@ -8,7 +8,7 @@ Aquí encontrarás una muestra de mis proyectos y habilidades como desarrollador
 
 Puedes acceder presionando el siguiente enlace:
 
-[![Website](https://img.shields.io/badge/Website-%236DB33F.svg?style=for-the-badge&logo=web&logoColor=white)](https://eduardochacon.vercel.app/)
+<a href="https://eduardochacon.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
 
 ## Tecnologías Utilizadas
 
@@ -49,7 +49,7 @@ Here you will find a showcase of my projects and skills as a web developer.
 
 You can access it by clicking the following link:
 
-[![Website](https://img.shields.io/badge/Website-%236DB33F.svg?style=for-the-badge&logo=web&logoColor=white)](https://eduardoeliaschacon-portfolio.vercel.app/)
+<a href="https://eduardochacon.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
 
 ## Technologies Used
 
